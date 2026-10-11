@@ -1,0 +1,431 @@
+# Bron: https://lef.hu.nl/beroepsproducten (opgehaald 2026-10-11)
+# Formaat: ROL|Laag|Activiteit|Naam|trefwoord, trefwoord   (trefwoorden: zie trefwoorden.txt)
+AI|Gebruikersinteractie|Analyseren|Explainability|ethiek, ai-ml
+AI|Gebruikersinteractie|Analyseren|Gebruikersbehoefte kaart bij AI-functionaliteit|gebruikersonderzoek, ai-ml
+AI|Gebruikersinteractie|Analyseren|Gebruikersfeedback voor modelverbetering|gebruikersonderzoek, ai-ml
+AI|Gebruikersinteractie|Analyseren|Gebruikersvertrouwen|ethiek, gebruikersonderzoek
+AI|Gebruikersinteractie|Analyseren|Interactiepatronen met AI-systemen|interactieontwerp, ai-ml
+AI|Gebruikersinteractie|Analyseren|Usability tests|gebruikersonderzoek, testen
+UI/UX|Gebruikersinteractie|Analyseren|5 Whys|gebruikersonderzoek, requirements
+UI/UX|Gebruikersinteractie|Analyseren|Affinity Diagrams|gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Analyseren|Cognitive Map|gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Analyseren|Competitor Analysis|businessstrategie, gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Analyseren|Customer Journey Mapping|gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Analyseren|Empathy Mapping|gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Analyseren|Personas|gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Analyseren|User Research|gebruikersonderzoek
+GD|Gebruikersinteractie|Analyseren|Competitor Experience Analysis|businessstrategie, gamedesign
+GD|Gebruikersinteractie|Analyseren|Playability & Usability Test Report|gebruikersonderzoek, testen
+GD|Gebruikersinteractie|Analyseren|Player Journey Map|gebruikersonderzoek, gamedesign
+GD|Gebruikersinteractie|Analyseren|Player Persona Set|gebruikersonderzoek, gamedesign
+AI|Gebruikersinteractie|Adviseren|AI-oplossing|ai-ml, technologiekeuze
+AI|Gebruikersinteractie|Adviseren|Ethical AI interface|ethiek, interactieontwerp
+AI|Gebruikersinteractie|Adviseren|Human-in-the-loop|ai-ml, interactieontwerp
+UI/UX|Gebruikersinteractie|Adviseren|Business models|businessstrategie
+UI/UX|Gebruikersinteractie|Adviseren|Goal-Oriented Design|interactieontwerp, gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Adviseren|How might we's|gebruikersonderzoek, requirements
+UI/UX|Gebruikersinteractie|Adviseren|Moodboards|interactieontwerp
+UI/UX|Gebruikersinteractie|Adviseren|Pain & Gains|businessstrategie, gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Adviseren|Product Vision|businessstrategie
+UI/UX|Gebruikersinteractie|Adviseren|Service blueprints|procesmodellering, interactieontwerp
+UI/UX|Gebruikersinteractie|Adviseren|User Needs & Problems|gebruikersonderzoek, requirements
+UI/UX|Gebruikersinteractie|Adviseren|Value Proposition|businessstrategie
+GD|Gebruikersinteractie|Adviseren|Accessibility Advice|toegankelijkheid, gamedesign
+GD|Gebruikersinteractie|Adviseren|Game Asset List|gamedesign, projectmanagement
+GD|Gebruikersinteractie|Adviseren|Game UX Heuristic Review|kwaliteit, interactieontwerp
+GD|Gebruikersinteractie|Adviseren|Monetization Ethics Advice|ethiek, businessstrategie
+GD|Gebruikersinteractie|Adviseren|New Game Pitch|businessstrategie, gamedesign
+AI|Gebruikersinteractie|Ontwerpen|AI-ondersteunde user flow|interactieontwerp, ai-ml
+AI|Gebruikersinteractie|Ontwerpen|Explainability interfaces|interactieontwerp, ethiek
+AI|Gebruikersinteractie|Ontwerpen|Feedbackmechanismen voor modelverbetering|interactieontwerp, ai-ml
+FE|Gebruikersinteractie|Ontwerpen|Componenten architectuur|architectuur, programmeren
+FE|Gebruikersinteractie|Ontwerpen|Interactief Figma design maken|interactieontwerp
+FE|Gebruikersinteractie|Ontwerpen|Kleur gebruik contrast|toegankelijkheid, interactieontwerp
+FE|Gebruikersinteractie|Ontwerpen|Project structuur|architectuur, programmeren
+FE|Gebruikersinteractie|Ontwerpen|Sitemap|interactieontwerp
+FE|Gebruikersinteractie|Ontwerpen|Teststructuur opzetten|testen
+FE|Gebruikersinteractie|Ontwerpen|Usability testplan|gebruikersonderzoek, testen
+FE|Gebruikersinteractie|Ontwerpen|User Exprience|interactieontwerp, gebruikersonderzoek
+FE|Gebruikersinteractie|Ontwerpen|User Journey|gebruikersonderzoek
+UI/UX|Gebruikersinteractie|Ontwerpen|Crazy 8's|interactieontwerp
+UI/UX|Gebruikersinteractie|Ontwerpen|Flow Charts|interactieontwerp, procesmodellering
+UI/UX|Gebruikersinteractie|Ontwerpen|Gamification Patterns|interactieontwerp, gamedesign
+UI/UX|Gebruikersinteractie|Ontwerpen|Lo-fi design|interactieontwerp
+UI/UX|Gebruikersinteractie|Ontwerpen|Storyboards|interactieontwerp
+UI/UX|Gebruikersinteractie|Ontwerpen|Wireflows|interactieontwerp
+UI/UX|Gebruikersinteractie|Ontwerpen|Wireframes|interactieontwerp
+GD|Gebruikersinteractie|Ontwerpen|(Non-)Playable Character Design|gamedesign
+GD|Gebruikersinteractie|Ontwerpen|Core Game Mechanic Design|gamedesign
+GD|Gebruikersinteractie|Ontwerpen|Game Design Document|gamedesign, documentatie
+GD|Gebruikersinteractie|Ontwerpen|Game HUD / UI Style Guide|interactieontwerp, gamedesign
+GD|Gebruikersinteractie|Ontwerpen|Game HUD / UI Wireframes|interactieontwerp, gamedesign
+GD|Gebruikersinteractie|Ontwerpen|Level Interaction Design|gamedesign, interactieontwerp
+AI|Gebruikersinteractie|Realiseren|Feedbacksysteem voor modelverbetering|ai-ml, programmeren
+AI|Gebruikersinteractie|Realiseren|Implementatie AI-chatbots of agents|ai-ml, programmeren
+AI|Gebruikersinteractie|Realiseren|Prompt-based interfaces|ai-ml, interactieontwerp
+FE|Gebruikersinteractie|Realiseren|E2E-testing|testen
+FE|Gebruikersinteractie|Realiseren|Gebruikershandleiding|documentatie
+FE|Gebruikersinteractie|Realiseren|Klikbaar prototype maken|interactieontwerp
+FE|Gebruikersinteractie|Realiseren|Overdrachtsdocument|documentatie
+FE|Gebruikersinteractie|Realiseren|Readme|documentatie
+FE|Gebruikersinteractie|Realiseren|Toegankelijkheid testing|toegankelijkheid, testen
+FE|Gebruikersinteractie|Realiseren|User testing|gebruikersonderzoek, testen
+UI/UX|Gebruikersinteractie|Realiseren|Content & Story|interactieontwerp
+UI/UX|Gebruikersinteractie|Realiseren|Figma components|interactieontwerp
+UI/UX|Gebruikersinteractie|Realiseren|Interactive Prototype|interactieontwerp
+UI/UX|Gebruikersinteractie|Realiseren|Responsive Design|interactieontwerp, programmeren
+UI/UX|Gebruikersinteractie|Realiseren|UI / UX patterns|interactieontwerp
+GD|Gebruikersinteractie|Realiseren|Core Game Mechanic Prototype|gamedesign, programmeren
+GD|Gebruikersinteractie|Realiseren|Game Asset Prototype|gamedesign
+GD|Gebruikersinteractie|Realiseren|Input & Control System Prototype|gamedesign, programmeren
+GD|Gebruikersinteractie|Realiseren|Paper Prototype|gamedesign, interactieontwerp
+GD|Gebruikersinteractie|Realiseren|Tutorial Prototype|gamedesign, interactieontwerp
+AI|Gebruikersinteractie|Manage & control|Beheer prompt libraries|ai-ml, beheer
+AI|Gebruikersinteractie|Manage & control|Governance voor verantwoord gebruik AI interfaces|ethiek, risico-compliance
+AI|Gebruikersinteractie|Manage & control|Monitoring mens-AI gebruik|ai-ml, beheer
+UI/UX|Gebruikersinteractie|Manage & control|A/B Testing|gebruikersonderzoek, testen
+UI/UX|Gebruikersinteractie|Manage & control|Atomic Design|interactieontwerp, architectuur
+UI/UX|Gebruikersinteractie|Manage & control|Design Systems|interactieontwerp
+UI/UX|Gebruikersinteractie|Manage & control|Heuristic Evaluation|kwaliteit, interactieontwerp
+UI/UX|Gebruikersinteractie|Manage & control|KPI's Analysis|dashboards, businessstrategie
+UI/UX|Gebruikersinteractie|Manage & control|UX/UI Audit|kwaliteit, interactieontwerp
+UI/UX|Gebruikersinteractie|Manage & control|User research|gebruikersonderzoek
+GD|Gebruikersinteractie|Manage & control|Player Feedback Dashboard|dashboards, gebruikersonderzoek
+GD|Gebruikersinteractie|Manage & control|Pre-release UX Quality Checklist|kwaliteit, interactieontwerp
+GD|Gebruikersinteractie|Manage & control|UX Iteration Log & Decision Tracker|documentatie, projectmanagement
+GD|Gebruikersinteractie|Manage & control|Usability & Playability Testing Setup|gebruikersonderzoek, testen
+AI|Organisatieprocessen|Analyseren|Data Governance|data, risico-compliance
+AI|Organisatieprocessen|Analyseren|Data bias|data, ethiek
+AI|Organisatieprocessen|Analyseren|Datavolwassenheid: beschikbaarheid en kwaliteit|data
+AI|Organisatieprocessen|Analyseren|Geschiktheid bedrijfsprocessen voor AI-automatisering|procesmodellering, ai-ml
+AI|Organisatieprocessen|Analyseren|Identificatie AI use cases binnen organisatie|ai-ml, businessstrategie
+AI|Organisatieprocessen|Analyseren|Risico's en ethische implicaties|risico-compliance, ethiek
+BIT|Organisatieprocessen|Analyseren|Business Model Canvas (huidig)|businessstrategie
+BIT|Organisatieprocessen|Analyseren|Concurrentie analyse|businessstrategie
+BIT|Organisatieprocessen|Analyseren|DESTEP analyse|businessstrategie
+BIT|Organisatieprocessen|Analyseren|Gap analyse|businessstrategie, procesmodellering
+BIT|Organisatieprocessen|Analyseren|Procesanalyse huidig (BPMN)|procesmodellering
+BIT|Organisatieprocessen|Analyseren|Procesanalyse huidig (ITIL)|procesmodellering, beheer
+BIT|Organisatieprocessen|Analyseren|Requierment analyse|requirements
+BIT|Organisatieprocessen|Analyseren|Risico analyse|risico-compliance
+BIT|Organisatieprocessen|Analyseren|SWOT analyse (huidig)|businessstrategie
+BIT|Organisatieprocessen|Analyseren|Stakeholder map/RASCI (analyse)|projectmanagement, businessstrategie
+BIT|Organisatieprocessen|Analyseren|User journey|gebruikersonderzoek
+BIT|Organisatieprocessen|Analyseren|User persona's|gebruikersonderzoek
+BIT|Organisatieprocessen|Analyseren|Value Propostion Canvas (huidig)|businessstrategie
+CS|Organisatieprocessen|Analyseren|Business Impact Analyse|risico-compliance, businessstrategie
+CS|Organisatieprocessen|Analyseren|Privacyanalyse (DPIA)|risico-compliance
+CS|Organisatieprocessen|Analyseren|Proces gapanalyse|risico-compliance, procesmodellering
+CS|Organisatieprocessen|Analyseren|Risico en maatregelen analyse|risico-compliance, security
+CS|Organisatieprocessen|Analyseren|Security checklist|security
+AI|Organisatieprocessen|Adviseren|AI implementatie advies obv bestaande processen|ai-ml, procesmodellering
+AI|Organisatieprocessen|Adviseren|Algorithmes/technieken|ai-ml, technologiekeuze
+AI|Organisatieprocessen|Adviseren|Databronnen en kwaliteit|data
+AI|Organisatieprocessen|Adviseren|Impact advies|ai-ml, businessstrategie
+AI|Organisatieprocessen|Adviseren|Trustworthy AI|ethiek, ai-ml
+BIT|Organisatieprocessen|Adviseren|Adviesrapport obv analyse|businessstrategie, technologiekeuze
+BIT|Organisatieprocessen|Adviseren|Adviesrapport obv ontwerp|technologiekeuze, architectuur
+BIT|Organisatieprocessen|Adviseren|Missie/visie van organisatie|businessstrategie
+BIT|Organisatieprocessen|Adviseren|Productvisie|businessstrategie
+CS|Organisatieprocessen|Adviseren|Business Continuity Management|beheer, risico-compliance
+CS|Organisatieprocessen|Adviseren|Prioriteiten in Annex A ISO 27.xxxx controls|risico-compliance, security
+CS|Organisatieprocessen|Adviseren|Prioriteiten in CIS Controls|risico-compliance, security
+CS|Organisatieprocessen|Adviseren|Privacy-waarborgingsadvies|risico-compliance
+CS|Organisatieprocessen|Adviseren|Risk & compliance-advies|risico-compliance
+CS|Organisatieprocessen|Adviseren|Security roadmap|security, projectmanagement
+CS|Organisatieprocessen|Adviseren|Security-implementatieadvies|security
+AI|Organisatieprocessen|Ontwerpen|AI lifecycle processen|ai-ml, procesmodellering
+AI|Organisatieprocessen|Ontwerpen|Human-AI samenwerking in processen|ai-ml, procesmodellering
+AI|Organisatieprocessen|Ontwerpen|Ontwerp databronnen, -kwaliteit en -stromen|data, architectuur
+BIT|Organisatieprocessen|Ontwerpen|Business Model Canvas (gewenst)|businessstrategie
+BIT|Organisatieprocessen|Ontwerpen|Implementatieplan (ADKAR, Kotter, ITIL transition, Cynefin)|projectmanagement
+BIT|Organisatieprocessen|Ontwerpen|Procesontwerp gewenst (BPMN)|procesmodellering
+BIT|Organisatieprocessen|Ontwerpen|Productbacklog refinement (INVEST/DEEP)|projectmanagement, requirements
+BIT|Organisatieprocessen|Ontwerpen|Requirement engineering|requirements
+BIT|Organisatieprocessen|Ontwerpen|Roadmap|projectmanagement, businessstrategie
+BIT|Organisatieprocessen|Ontwerpen|SWOT (gewenst)|businessstrategie
+BIT|Organisatieprocessen|Ontwerpen|Servicedesign ITIL (gewenst)|procesmodellering, beheer
+BIT|Organisatieprocessen|Ontwerpen|Stakeholder communicatieplan|projectmanagement
+BIT|Organisatieprocessen|Ontwerpen|Value Propostion Canvas (gewenst)|businessstrategie
+CS|Organisatieprocessen|Ontwerpen|Disaster Recovery Plan|beheer, risico-compliance
+CS|Organisatieprocessen|Ontwerpen|Procesontwerp voor een of meerdere controls|procesmodellering, security
+CS|Organisatieprocessen|Ontwerpen|SOC-processen|security, procesmodellering
+AI|Organisatieprocessen|Realiseren|AI based decision support system|ai-ml, programmeren
+AI|Organisatieprocessen|Realiseren|AI integratie in bedrijfsprocessen|ai-ml, procesmodellering
+AI|Organisatieprocessen|Realiseren|AI-ondersteunde procesautomatisering|ai-ml, procesmodellering
+AI|Organisatieprocessen|Realiseren|Data pipelines|data, devops
+BIT|Organisatieprocessen|Realiseren|Dashboards (Excel, PowerBI, etc)|dashboards, data
+BIT|Organisatieprocessen|Realiseren|Functionele testen|testen
+BIT|Organisatieprocessen|Realiseren|Inrichten standaardapplicatie|beheer
+BIT|Organisatieprocessen|Realiseren|Low-code oplossing maken|programmeren
+BIT|Organisatieprocessen|Realiseren|Productbacklog management|projectmanagement
+BIT|Organisatieprocessen|Realiseren|Uitvoeren implementatieplan|projectmanagement
+BIT|Organisatieprocessen|Realiseren|Vibe-code voor POC|programmeren, ai-ml
+CS|Organisatieprocessen|Realiseren|CIS controls voor domein in organisatie|security, risico-compliance
+CS|Organisatieprocessen|Realiseren|Identity & Access Management (IAM)|security
+CS|Organisatieprocessen|Realiseren|Information Security Management System (ISMS)|security, risico-compliance
+CS|Organisatieprocessen|Realiseren|SOC use cases|security, beheer
+AI|Organisatieprocessen|Manage & control|AI lifecycle governance|ai-ml, risico-compliance
+BIT|Organisatieprocessen|Manage & control|(Overdrachts)documentatie|documentatie
+BIT|Organisatieprocessen|Manage & control|(Test) Pipeline to Market (CI/CD)|devops, testen
+BIT|Organisatieprocessen|Manage & control|Algeme voorwaarden|risico-compliance
+BIT|Organisatieprocessen|Manage & control|Begroting (uren+geld)|projectmanagement
+BIT|Organisatieprocessen|Manage & control|Burndown chart|projectmanagement
+BIT|Organisatieprocessen|Manage & control|Privacy beleid|risico-compliance
+BIT|Organisatieprocessen|Manage & control|Qualitycontrol (story's)|kwaliteit, requirements
+BIT|Organisatieprocessen|Manage & control|Service Level Agreement|beheer, risico-compliance
+BIT|Organisatieprocessen|Manage & control|Werk inschatten (Planpoker)|projectmanagement
+CS|Organisatieprocessen|Manage & control|Audit & reporting|risico-compliance
+CS|Organisatieprocessen|Manage & control|Control reporting|risico-compliance
+CS|Organisatieprocessen|Manage & control|Incident Response Book|security, beheer
+CS|Organisatieprocessen|Manage & control|Proces eigenaarschap vaststellen|procesmodellering, risico-compliance
+AI|Infrastructuur|Analyseren|Analyse compute en storage behoeften|infrastructuur, ai-ml
+AI|Infrastructuur|Analyseren|Cloud vs local AI|infrastructuur, ai-ml
+CS|Infrastructuur|Analyseren|Gapanalyse|security, risico-compliance
+CS|Infrastructuur|Analyseren|Incidentanalyse|security
+CS|Infrastructuur|Analyseren|Privacyanalyse|risico-compliance
+CS|Infrastructuur|Analyseren|Risicoanalyse|risico-compliance, security
+CS|Infrastructuur|Analyseren|Security checklist|security
+CI|Infrastructuur|Analyseren|Infrastructuurscan|infrastructuur
+CI|Infrastructuur|Analyseren|Kwaliteitsanalyse|infrastructuur, kwaliteit
+FE|Infrastructuur|Analyseren|Docker image|devops
+AI|Infrastructuur|Adviseren|AI platformen|ai-ml, technologiekeuze
+AI|Infrastructuur|Adviseren|MLOps tooling|ai-ml, devops
+CS|Infrastructuur|Adviseren|Lifecycle-advies|beheer, security
+CS|Infrastructuur|Adviseren|Privacy-waarborgingsadvies|risico-compliance
+CS|Infrastructuur|Adviseren|Risk & compliance-advies|risico-compliance
+CS|Infrastructuur|Adviseren|Security-implementatieadvies|security
+CI|Infrastructuur|Adviseren|Architectuuradvies|architectuur, infrastructuur
+CI|Infrastructuur|Adviseren|Cloudstrategieadvies|infrastructuur, technologiekeuze
+CI|Infrastructuur|Adviseren|Data-infrastructuuradvies|data, infrastructuur
+CI|Infrastructuur|Adviseren|Netwerk- en infrastructuur(tooling)advies|infrastructuur, technologiekeuze
+AI|Infrastructuur|Ontwerpen|AI/ML infra-architectuur ontwerp|ai-ml, architectuur
+AI|Infrastructuur|Ontwerpen|MLOps pipelines|ai-ml, devops
+CS|Infrastructuur|Ontwerpen|Access architecture (technisch)|security, architectuur
+CS|Infrastructuur|Ontwerpen|Identity architecture|security, architectuur
+CS|Infrastructuur|Ontwerpen|Privacy by design (GDPR)|risico-compliance, architectuur
+CS|Infrastructuur|Ontwerpen|Security architectuur (Zero Trust)|security, architectuur
+CI|Infrastructuur|Ontwerpen|Cloudspecificaties|infrastructuur
+CI|Infrastructuur|Ontwerpen|Cost optimization design (FinOps)|infrastructuur, businessstrategie
+CI|Infrastructuur|Ontwerpen|High availability ontwerp|infrastructuur, architectuur
+CI|Infrastructuur|Ontwerpen|Infrastructuurontwerp|infrastructuur, architectuur
+CI|Infrastructuur|Ontwerpen|Logical architectuur|architectuur, infrastructuur
+CI|Infrastructuur|Ontwerpen|Netwerkontwerp|infrastructuur
+CI|Infrastructuur|Ontwerpen|Netwerkspecificaties|infrastructuur
+CI|Infrastructuur|Ontwerpen|Ontwerp van een SOC|security, infrastructuur
+CI|Infrastructuur|Ontwerpen|Physical architectuur|architectuur, infrastructuur
+CI|Infrastructuur|Ontwerpen|Relaties tussen (cloud-agnostische) infrastructuur|infrastructuur, architectuur
+AI|Infrastructuur|Realiseren|Containerized AI services|ai-ml, devops
+AI|Infrastructuur|Realiseren|Data pipelines|data, devops
+AI|Infrastructuur|Realiseren|Inrichting MLOps|ai-ml, devops
+CS|Infrastructuur|Realiseren|Identity & Access Management (IAM)|security
+CS|Infrastructuur|Realiseren|Monitoring & logging|beheer, security
+CS|Infrastructuur|Realiseren|Network security|security, infrastructuur
+CS|Infrastructuur|Realiseren|Secrets management|security, devops
+CS|Infrastructuur|Realiseren|Security hardening|security, infrastructuur
+CI|Infrastructuur|Realiseren|Backup & recovery|beheer, infrastructuur
+CI|Infrastructuur|Realiseren|Cloud provisioning (AWS | Azure | GCP)|infrastructuur
+CI|Infrastructuur|Realiseren|Configuration management (Ansible | Puppet | Chef)|devops, infrastructuur
+CI|Infrastructuur|Realiseren|Container orchestration (Kubernetes)|devops, infrastructuur
+CI|Infrastructuur|Realiseren|Containerization (Docker)|devops
+CI|Infrastructuur|Realiseren|High availability|infrastructuur
+CI|Infrastructuur|Realiseren|Infrastructure as Code (Terraform | Bicep | CloudFormation)|devops, infrastructuur
+CI|Infrastructuur|Realiseren|Infrastructuur opzetten|infrastructuur
+CI|Infrastructuur|Realiseren|Load balancing|infrastructuur
+CI|Infrastructuur|Realiseren|Networking (VPC | VNets | Subnets | Routing)|infrastructuur
+CI|Infrastructuur|Realiseren|Storage Provisioning|infrastructuur
+CI|Infrastructuur|Realiseren|Virtualisatie (VMware | Hyper-V | KVM)|infrastructuur
+FE|Infrastructuur|Realiseren|Docker compose|devops
+AI|Infrastructuur|Manage & control|Resource management for training|ai-ml, infrastructuur
+CS|Infrastructuur|Manage & control|Audit & reporting|risico-compliance
+CS|Infrastructuur|Manage & control|Configuration management (CMDB)|beheer
+CS|Infrastructuur|Manage & control|Disaster recovery|beheer, risico-compliance
+CS|Infrastructuur|Manage & control|IT service management (ITIL)|beheer, procesmodellering
+CS|Infrastructuur|Manage & control|Monitoring & alerting|beheer
+CS|Infrastructuur|Manage & control|Patch management|beheer, security
+CS|Infrastructuur|Manage & control|Policy enforcement|security, risico-compliance
+CI|Infrastructuur|Manage & control|Asset management|beheer
+CI|Infrastructuur|Manage & control|Beheerimplementatie|beheer
+CI|Infrastructuur|Manage & control|Beheerprocedures|beheer, documentatie
+CI|Infrastructuur|Manage & control|Release management|devops, beheer
+FE|Infrastructuur|Manage & control|Docker vulnerabilities|security, devops
+AI|Software|Analyseren|AI/ML model analyse|ai-ml
+AI|Software|Analyseren|Accuracy | Precision | Recall | F1|ai-ml, kwaliteit
+AI|Software|Analyseren|Analyse integratie met bestaande systemen|api-integratie, ai-ml
+AI|Software|Analyseren|EDA|data, ai-ml
+AI|Software|Analyseren|Model performance analyse|ai-ml, kwaliteit
+BE|Software|Analyseren|Code reviews|kwaliteit
+BE|Software|Analyseren|Code smells / statische analyse|kwaliteit
+BE|Software|Analyseren|ISO 25010|kwaliteit
+BE|Software|Analyseren|Performance analyse|kwaliteit
+BE|Software|Analyseren|Test coverage|testen, kwaliteit
+FE|Software|Analyseren|Casus Vaststellen|requirements
+FE|Software|Analyseren|Framework Vergelijken|technologiekeuze
+FE|Software|Analyseren|Probleem Analyse|requirements
+FE|Software|Analyseren|Requirement Analyse|requirements
+FE|Software|Analyseren|UI Vergelijken|interactieontwerp, technologiekeuze
+FE|Software|Analyseren|User Journey Mapping|gebruikersonderzoek
+GD|Software|Analyseren|Bug Impact Analysis|testen, kwaliteit
+GD|Software|Analyseren|Code Performance Review|kwaliteit
+GD|Software|Analyseren|Game Architecture Risk Scan|architectuur, kwaliteit
+AI|Software|Adviseren|Advies data-architectuur|data, architectuur
+AI|Software|Adviseren|Frameworks|ai-ml, technologiekeuze
+AI|Software|Adviseren|Kosten GenAI|ai-ml, businessstrategie
+AI|Software|Adviseren|LLM|ai-ml, technologiekeuze
+AI|Software|Adviseren|Modelarchitectuur|ai-ml, architectuur
+AI|Software|Adviseren|Mogelijkheden GenAI|ai-ml, businessstrategie
+BE|Software|Adviseren|Advies over stack, frameworks, databases, etc. gebaseerd op MCD|technologiekeuze, architectuur
+BE|Software|Adviseren|Advies over stack, frameworks, databases, etc. gebaseerd op analyse|technologiekeuze
+FE|Software|Adviseren|Accessibility|toegankelijkheid
+FE|Software|Adviseren|Advies over handigste framework|technologiekeuze
+FE|Software|Adviseren|CSS methodology (tailwind)|programmeren, technologiekeuze
+FE|Software|Adviseren|Library / package management|programmeren, devops
+FE|Software|Adviseren|Performance rendering strategy (SSR, ISR, CSR)|kwaliteit, architectuur
+FE|Software|Adviseren|Statemanagement|architectuur, programmeren
+GD|Software|Adviseren|Game AI Approach Recommendation|gamedesign, ai-ml
+GD|Software|Adviseren|Game Engine Recommendation|technologiekeuze, gamedesign
+GD|Software|Adviseren|Game Optimization Strategy|kwaliteit, gamedesign
+GD|Software|Adviseren|Game System Architecture Proposal|architectuur, gamedesign
+AI|Software|Ontwerpen|C4|architectuur
+AI|Software|Ontwerpen|Data Preparation|data, ai-ml
+AI|Software|Ontwerpen|Data card|data, documentatie
+AI|Software|Ontwerpen|Feature engineering strategie|ai-ml, data
+AI|Software|Ontwerpen|ML pipelines|ai-ml, devops
+AI|Software|Ontwerpen|Model architecture|ai-ml, architectuur
+AI|Software|Ontwerpen|Model evaluatie strategie|ai-ml, testen
+AI|Software|Ontwerpen|Ontwerp data-architectuur|data, architectuur
+AI|Software|Ontwerpen|Teststrategie ML model|testen, ai-ml
+BE|Software|Ontwerpen|Architectuur Patronen/bestaande componenten (2,3 Design Patterns, Design Principes, Message Brokers)|architectuur
+BE|Software|Ontwerpen|BPMN|procesmodellering
+BE|Software|Ontwerpen|C4|architectuur
+BE|Software|Ontwerpen|ERD|data
+BE|Software|Ontwerpen|Normaliseren|data
+BE|Software|Ontwerpen|Teststrategie|testen
+BE|Software|Ontwerpen|UML - activity diagram|architectuur, procesmodellering
+BE|Software|Ontwerpen|UML - class diagram|architectuur, programmeren
+BE|Software|Ontwerpen|UML - component diagram|architectuur
+BE|Software|Ontwerpen|UML - deployment diagram|architectuur, infrastructuur
+BE|Software|Ontwerpen|UML - sequence diagram|architectuur, api-integratie
+BE|Software|Ontwerpen|UML - state diagram|architectuur
+BE|Software|Ontwerpen|UML - use case diagram|requirements, architectuur
+FE|Software|Ontwerpen|Folderstructuur organiseren|programmeren, architectuur
+FE|Software|Ontwerpen|Framework gebruiken (algemeen)|programmeren
+FE|Software|Ontwerpen|Lighthouse testen|kwaliteit, toegankelijkheid
+FE|Software|Ontwerpen|Mockdata opzetten|testen, data
+FE|Software|Ontwerpen|OOP structuur|programmeren, architectuur
+FE|Software|Ontwerpen|Rubber Duck|kwaliteit, programmeren
+FE|Software|Ontwerpen|Toepassen SDG's op front-end|ethiek
+FE|Software|Ontwerpen|Toepassen van DRY en KISS|kwaliteit, programmeren
+FE|Software|Ontwerpen|Wireframe|interactieontwerp
+GD|Software|Ontwerpen|AI Behavior Tree Design|gamedesign, ai-ml
+GD|Software|Ontwerpen|Core Game Mechanic System Design|gamedesign, architectuur
+GD|Software|Ontwerpen|Multiplayer Sync Design|api-integratie, gamedesign
+GD|Software|Ontwerpen|Save/Load System Design|data, gamedesign
+GD|Software|Ontwerpen|State Machine Design|architectuur, gamedesign
+AI|Software|Realiseren|Geïmplementeerde dataoplossing|data, programmeren
+AI|Software|Realiseren|Implementatie ML-componenten|ai-ml, programmeren
+AI|Software|Realiseren|Implementatie pre-trained model|ai-ml, programmeren
+AI|Software|Realiseren|Integratie AI model in applicatie|ai-ml, api-integratie
+AI|Software|Realiseren|LMM implementatie|ai-ml, programmeren
+AI|Software|Realiseren|Prompt engineering|ai-ml
+AI|Software|Realiseren|Trainen ML model|ai-ml
+BE|Software|Realiseren|CQRS|architectuur, programmeren
+BE|Software|Realiseren|Domain driven design|architectuur, programmeren
+BE|Software|Realiseren|Event-driven architecture|architectuur, api-integratie
+BE|Software|Realiseren|Functional tests|testen
+BE|Software|Realiseren|Integration tests|testen, api-integratie
+BE|Software|Realiseren|JWT | OAuth|security, api-integratie
+BE|Software|Realiseren|OOP, imperative, functioneel|programmeren
+BE|Software|Realiseren|ORM|data, programmeren
+BE|Software|Realiseren|Prototypen|programmeren
+BE|Software|Realiseren|REST | gRPC | GraphQL | SOAP|api-integratie
+BE|Software|Realiseren|Security by design (OWASP)|security
+BE|Software|Realiseren|Serverless (AWS/Azure)|infrastructuur, programmeren
+BE|Software|Realiseren|Services/API's restfull principes|api-integratie
+BE|Software|Realiseren|Test driven development|testen, programmeren
+BE|Software|Realiseren|Unit tests|testen
+BE|Software|Realiseren|WebSockets|api-integratie
+FE|Software|Realiseren|Authenticatie|security, api-integratie
+FE|Software|Realiseren|Framework React gebruiken|programmeren
+FE|Software|Realiseren|Herbruikbare componenten|programmeren, interactieontwerp
+FE|Software|Realiseren|Mockdata opzetten|testen, data
+FE|Software|Realiseren|Realiseren prototype naar code|programmeren, interactieontwerp
+FE|Software|Realiseren|SAAS dashboard|dashboards, programmeren
+FE|Software|Realiseren|Unit testing & integration testing|testen
+FE|Software|Realiseren|Validatie client-side|programmeren, security
+GD|Software|Realiseren|Enemy AI Implementation|gamedesign, programmeren
+GD|Software|Realiseren|Game Release Build|devops, gamedesign
+GD|Software|Realiseren|Inventory & Progression System|gamedesign, programmeren
+GD|Software|Realiseren|Modular Game Mechanics System|gamedesign, programmeren
+GD|Software|Realiseren|Multiplayer Prototype|api-integratie, gamedesign
+GD|Software|Realiseren|Playable Digital Prototype|gamedesign, programmeren
+AI|Software|Manage & control|CI/CD pipeline voor data|devops, data
+AI|Software|Manage & control|Implementatieplan continues improvements|ai-ml, projectmanagement
+AI|Software|Manage & control|Lifecycle management|ai-ml, beheer
+AI|Software|Manage & control|Model performance|ai-ml, beheer
+AI|Software|Manage & control|Versieberheer modellen|ai-ml, devops
+BE|Software|Manage & control|CD|devops
+BE|Software|Manage & control|CI|devops
+BE|Software|Manage & control|Coding conventies|kwaliteit, programmeren
+BE|Software|Manage & control|Docker container/images|devops
+BE|Software|Manage & control|Grafana dashboards|dashboards, beheer
+BE|Software|Manage & control|Open API / swagger|api-integratie, documentatie
+BE|Software|Manage & control|Testplan|testen
+BE|Software|Manage & control|Versiebeheer (GIT)|devops
+BE|Software|Manage & control|k8s|devops, infrastructuur
+FE|Software|Manage & control|Automatic testing|testen, devops
+FE|Software|Manage & control|Continuous Development (CD)|devops
+FE|Software|Manage & control|Continuous Integration (CI)|devops
+FE|Software|Manage & control|Conventies|kwaliteit, programmeren
+FE|Software|Manage & control|Git / versiebeheer|devops
+FE|Software|Manage & control|Linting|kwaliteit
+FE|Software|Manage & control|Opzetten storybook|interactieontwerp, documentatie
+FE|Software|Manage & control|Overdrachtsdocument|documentatie
+FE|Software|Manage & control|Swagger|api-integratie, documentatie
+FE|Software|Manage & control|WCAG|toegankelijkheid
+GD|Software|Manage & control|Automated Testing Setup|testen, devops
+GD|Software|Manage & control|Bug Tracking Report|testen, projectmanagement
+GD|Software|Manage & control|Build & Release Pipeline Script|devops
+GD|Software|Manage & control|Build & Release Quality Checklist|kwaliteit, devops
+GD|Software|Manage & control|Performance Monitoring Dashboard|dashboards, kwaliteit
+GD|Software|Manage & control|Version Control Workflow|devops
+AI|Hardwareinterfacing|Analyseren|Energieverbruik AI modellen|ai-ml, hardware
+AI|Hardwareinterfacing|Analyseren|Hardwarevereisten voor AI workloads|ai-ml, hardware
+TI|Hardwareinterfacing|Analyseren|Bestaand hardware (deel-)systeem analyse|hardware
+TI|Hardwareinterfacing|Analyseren|Criteria analyse|requirements, technologiekeuze
+TI|Hardwareinterfacing|Analyseren|Datasheet vergelijking|hardware, technologiekeuze
+TI|Hardwareinterfacing|Analyseren|Specificatie vergelijking|hardware, technologiekeuze
+TI|Hardwareinterfacing|Analyseren|Toepassing hardware componenten|hardware
+AI|Hardwareinterfacing|Adviseren|CPU vs GPUs|hardware, ai-ml
+AI|Hardwareinterfacing|Adviseren|Kostenoptimalisatie van AI hardware|hardware, ai-ml
+TI|Hardwareinterfacing|Adviseren|Adviesrapport communicatieprotocol keuze|technologiekeuze, api-integratie
+TI|Hardwareinterfacing|Adviseren|Adviesrapport hardware keuze|technologiekeuze, hardware
+TI|Hardwareinterfacing|Adviseren|Multidecision criteria matrix hardware communicatie protocol|technologiekeuze, api-integratie
+TI|Hardwareinterfacing|Adviseren|Multidecision criteria matrix hardware component|technologiekeuze, hardware
+TI|Hardwareinterfacing|Adviseren|Multidecision criteria matrix software framework|technologiekeuze
+TI|Hardwareinterfacing|Adviseren|Onderzoeksrapport communicatieprotocol|api-integratie, hardware
+TI|Hardwareinterfacing|Ontwerpen|Breadboard prototype|hardware
+TI|Hardwareinterfacing|Ontwerpen|Component diagram|architectuur, hardware
+TI|Hardwareinterfacing|Ontwerpen|PCB schematic|hardware
+TI|Hardwareinterfacing|Ontwerpen|Sequence diagram|architectuur, api-integratie
+TI|Hardwareinterfacing|Ontwerpen|Wiring diagram|hardware
+TI|Hardwareinterfacing|Realiseren|Component prototype|hardware
+TI|Hardwareinterfacing|Realiseren|Embedded Machine Learning|hardware, ai-ml
+TI|Hardwareinterfacing|Realiseren|Firmware (software voor hardware)|hardware, programmeren
+TI|Hardwareinterfacing|Realiseren|PCB|hardware
+TI|Hardwareinterfacing|Realiseren|Product prototype|hardware
+TI|Hardwareinterfacing|Realiseren|Simulatie|hardware, testen
+TI|Hardwareinterfacing|Realiseren|Software driver voor hardware component|hardware, programmeren
+TI|Hardwareinterfacing|Realiseren|Software library voor hardware|hardware, programmeren
+TI|Hardwareinterfacing|Realiseren|Testopstelling|hardware, testen
+TI|Hardwareinterfacing|Realiseren|Tiny Machine Learning|hardware, ai-ml
+TI|Hardwareinterfacing|Realiseren|Validatieschema|testen, hardware
+TI|Hardwareinterfacing|Manage & control|Breadboard (testplatform)|hardware, testen
+TI|Hardwareinterfacing|Manage & control|Documentatie Development Kit (Arduino, ESP, e.a.)|documentatie, hardware
+TI|Hardwareinterfacing|Manage & control|Documentatie hardware componenten (datasheets)|documentatie, hardware
+TI|Hardwareinterfacing|Manage & control|Documentatie project (readme, e.a.)|documentatie
+TI|Hardwareinterfacing|Manage & control|Logbeheer (sensor, firmware, e.a.)|beheer, hardware
+TI|Hardwareinterfacing|Manage & control|Over the air updates|devops, hardware
+TI|Hardwareinterfacing|Manage & control|Simulatie|hardware, testen
+TI|Hardwareinterfacing|Manage & control|Versiebeheer (git, ci/cd)|devops
+TI|Hardwareinterfacing|Manage & control|Wiring diagram|hardware, documentatie

@@ -1,0 +1,190 @@
+# Welke onderzoeksmethoden (zie onderzoeksmethoden.txt) passen bij een beroepsproduct.
+# Formaat:  ROL: Productnaam => Methode ; Methode
+# Eerste voorstel; producten zonder duidelijke onderzoeksmethode staan hier niet in.
+
+# UI/UX
+UI/UX: 5 Whys => Root cause analysis
+UI/UX: Competitor Analysis => Competitive analysis
+UI/UX: Customer Journey Mapping => Interview ; Observation
+UI/UX: Empathy Mapping => Interview ; Observation
+UI/UX: Personas => Interview ; Survey
+UI/UX: User Research => Interview ; Survey ; Observation
+UI/UX: User research => Interview ; Survey ; Observation
+UI/UX: Crazy 8's => Brainstorm
+UI/UX: How might we's => Brainstorm
+UI/UX: Pain & Gains => Interview
+UI/UX: User Needs & Problems => Explore user requirements
+UI/UX: Business models => Business case exploration
+UI/UX: Value Proposition => Business case exploration
+UI/UX: Lo-fi design => Prototyping
+UI/UX: Interactive Prototype => Prototyping
+UI/UX: UI / UX patterns => Design pattern research
+UI/UX: Design Systems => Design pattern research
+UI/UX: A/B Testing => A/B testing
+UI/UX: Heuristic Evaluation => Guideline conformity analysis
+UI/UX: UX/UI Audit => Product review ; Guideline conformity analysis
+UI/UX: KPI's Analysis => Data analytics
+
+# GD
+GD: Competitor Experience Analysis => Competitive analysis ; Available product analysis
+GD: Playability & Usability Test Report => Usability testing
+GD: Player Journey Map => Observation
+GD: Player Persona Set => Interview ; Survey
+GD: Accessibility Advice => Guideline conformity analysis
+GD: Game UX Heuristic Review => Guideline conformity analysis
+GD: Monetization Ethics Advice => Ethical check
+GD: New Game Pitch => Pitch
+GD: Core Game Mechanic Prototype => Prototyping
+GD: Paper Prototype => Prototyping
+GD: Tutorial Prototype => Prototyping
+GD: Playable Digital Prototype => Prototyping
+GD: Multiplayer Prototype => Prototyping
+GD: Usability & Playability Testing Setup => Usability testing
+GD: Player Feedback Dashboard => Data analytics
+GD: Bug Impact Analysis => Root cause analysis
+GD: Code Performance Review => Benchmark test ; Code review
+GD: Game Architecture Risk Scan => Peer review
+GD: Game Engine Recommendation => Multi-criteria decision making ; Available product analysis
+GD: Automated Testing Setup => Unit test
+GD: Performance Monitoring Dashboard => Benchmark test
+
+# AI
+AI: Explainability => Ethical check
+AI: Gebruikersbehoefte kaart bij AI-functionaliteit => Explore user requirements
+AI: Gebruikersfeedback voor modelverbetering => Survey
+AI: Gebruikersvertrouwen => Survey ; Interview
+AI: Usability tests => Usability testing
+AI: Ethical AI interface => Ethical check
+AI: Data bias => Data quality check (ML)
+AI: Datavolwassenheid: beschikbaarheid en kwaliteit => Data quality check (ML)
+AI: Identificatie AI use cases binnen organisatie => Business case exploration
+AI: Risico's en ethische implicaties => Ethical check ; Human impact score
+AI: Trustworthy AI => Ethical check
+AI: Impact advies => Human impact score
+AI: Algorithmes/technieken => Literature study
+AI: Cloud vs local AI => Multi-criteria decision making
+AI: EDA => Exploratory data analysis (ML)
+AI: AI/ML model analyse => Model evaluation (ML)
+AI: Accuracy | Precision | Recall | F1 => Model evaluation (ML)
+AI: Model performance analyse => Model evaluation (ML)
+AI: Frameworks => Available product analysis
+AI: Kosten GenAI => Business case exploration
+AI: LLM => Literature study ; Benchmark test
+AI: Mogelijkheden GenAI => Literature study
+AI: Data Preparation => Data quality check (ML)
+AI: Model evaluatie strategie => Model evaluation (ML) ; Model validation (ML)
+AI: Teststrategie ML model => Model validation (ML)
+AI: Trainen ML model => Model validation (ML)
+AI: Model performance => Model evaluation (ML)
+AI: Energieverbruik AI modellen => Benchmark test
+AI: CPU vs GPUs => Benchmark test
+
+# BIT
+BIT: Business Model Canvas (huidig) => Document analysis ; Interview
+BIT: Concurrentie analyse => Competitive analysis
+BIT: DESTEP analyse => Literature study
+BIT: Gap analyse => Gap analysis
+BIT: Procesanalyse huidig (BPMN) => Observation ; Interview
+BIT: Procesanalyse huidig (ITIL) => Document analysis
+BIT: Requierment analyse => Explore user requirements
+BIT: SWOT analyse (huidig) => SWOT analysis
+BIT: Stakeholder map/RASCI (analyse) => Stakeholder analysis
+BIT: User journey => Interview
+BIT: User persona's => Interview ; Survey
+BIT: Adviesrapport obv analyse => Multi-criteria decision making
+BIT: Business Model Canvas (gewenst) => Business case exploration
+BIT: Productbacklog refinement (INVEST/DEEP) => Requirements prioritization
+BIT: Requirement engineering => Explore user requirements ; Requirements prioritization
+BIT: SWOT (gewenst) => SWOT analysis
+BIT: Dashboards (Excel, PowerBI, etc) => Data analytics
+BIT: Functionele testen => System test
+BIT: Vibe-code voor POC => Prototyping
+
+# CS
+CS: Privacyanalyse (DPIA) => Ethical check ; Document analysis
+CS: Proces gapanalyse => Gap analysis
+CS: Security checklist => Guideline conformity analysis
+CS: Prioriteiten in Annex A ISO 27.xxxx controls => Guideline conformity analysis
+CS: Prioriteiten in CIS Controls => Guideline conformity analysis
+CS: Audit & reporting => Guideline conformity analysis
+CS: Gapanalyse => Gap analysis
+CS: Incidentanalyse => Root cause analysis
+CS: Privacyanalyse => Document analysis
+CS: Network security => Security test
+CS: Security hardening => Security test
+
+# CI
+CI: Kwaliteitsanalyse => Non-functional test
+CI: Architectuuradvies => IT architecture sketching
+CI: Cloudstrategieadvies => Multi-criteria decision making
+CI: Netwerk- en infrastructuur(tooling)advies => Multi-criteria decision making ; Available product analysis
+CI: Infrastructuurontwerp => IT architecture sketching
+CI: Logical architectuur => IT architecture sketching
+CI: Physical architectuur => IT architecture sketching
+CI: High availability => Non-functional test
+CI: Load balancing => Non-functional test
+
+# FE
+FE: Componenten architectuur => Decomposition
+FE: Interactief Figma design maken => Prototyping
+FE: Usability testplan => Usability testing
+FE: User Journey => Interview ; Observation
+FE: Klikbaar prototype maken => Prototyping
+FE: Toegankelijkheid testing => Guideline conformity analysis
+FE: User testing => Usability testing
+FE: Docker vulnerabilities => Security test
+FE: Casus Vaststellen => Problem analysis
+FE: Framework Vergelijken => Multi-criteria decision making ; Available product analysis
+FE: Probleem Analyse => Problem analysis
+FE: Requirement Analyse => Explore user requirements
+FE: UI Vergelijken => Competitive analysis
+FE: User Journey Mapping => Interview ; Observation
+FE: Accessibility => Guideline conformity analysis
+FE: Advies over handigste framework => Multi-criteria decision making
+FE: Lighthouse testen => Benchmark test ; Non-functional test
+FE: Rubber Duck => Code review
+FE: Toepassen SDG's op front-end => Human impact score
+FE: Unit testing & integration testing => Unit test ; Component test
+FE: Automatic testing => Unit test
+FE: Linting => Static program analysis
+FE: WCAG => Guideline conformity analysis
+
+# BE
+BE: Code reviews => Code review ; Peer review
+BE: Code smells / statische analyse => Static program analysis
+BE: ISO 25010 => Guideline conformity analysis
+BE: Performance analyse => Benchmark test ; Non-functional test
+BE: Test coverage => Unit test
+BE: Advies over stack, frameworks, databases, etc. gebaseerd op MCD => Multi-criteria decision making
+BE: Advies over stack, frameworks, databases, etc. gebaseerd op analyse => Available product analysis ; Literature study
+BE: Architectuur Patronen/bestaande componenten (2,3 Design Patterns, Design Principes, Message Brokers) => Design pattern research
+BE: C4 => IT architecture sketching
+BE: ERD => Domain modelling
+BE: UML - component diagram => Decomposition
+BE: Domain driven design => Domain modelling
+BE: Functional tests => System test
+BE: Integration tests => Component test
+BE: Prototypen => Prototyping
+BE: Security by design (OWASP) => Security test ; Guideline conformity analysis
+BE: Test driven development => Unit test
+BE: Unit tests => Unit test
+AI: C4 => IT architecture sketching
+
+# TI
+TI: Bestaand hardware (deel-)systeem analyse => Available product analysis
+TI: Criteria analyse => Multi-criteria decision making
+TI: Datasheet vergelijking => Available product analysis
+TI: Specificatie vergelijking => Available product analysis
+TI: Adviesrapport communicatieprotocol keuze => Multi-criteria decision making
+TI: Adviesrapport hardware keuze => Multi-criteria decision making
+TI: Multidecision criteria matrix hardware communicatie protocol => Multi-criteria decision making
+TI: Multidecision criteria matrix hardware component => Multi-criteria decision making
+TI: Multidecision criteria matrix software framework => Multi-criteria decision making
+TI: Onderzoeksrapport communicatieprotocol => Literature study
+TI: Breadboard prototype => Prototyping
+TI: Component prototype => Prototyping ; Hardware validation
+TI: Product prototype => Prototyping
+TI: Simulatie => Computer simulation
+TI: Testopstelling => Hardware validation
+TI: Validatieschema => Hardware validation
+TI: Breadboard (testplatform) => Hardware validation

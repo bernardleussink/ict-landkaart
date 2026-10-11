@@ -1,0 +1,15 @@
+# Lokale instellingen van Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor- en systeembestanden
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Niet meer gebruikte logo's (bronvermelding), alleen lokaal
+img/bronnen/

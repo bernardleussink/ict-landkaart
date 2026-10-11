@@ -1,0 +1,58 @@
+# Onderzoeksmethoden uit het DOT framework (HBO-i, https://ictresearchmethods.nl/), opgehaald 2026-10-11
+# Formaat: Strategie|Methode|URL
+
+Library|Available product analysis|https://ictresearchmethods.nl/library/available-product-analysis
+Library|Best good and bad practices|https://ictresearchmethods.nl/library/best-good-and-bad-practices
+Library|Community research|https://ictresearchmethods.nl/library/community-research
+Library|Competitive analysis|https://ictresearchmethods.nl/library/competitive-analysis
+Library|Design pattern research|https://ictresearchmethods.nl/library/design-pattern-research
+Library|Expert interview|https://ictresearchmethods.nl/library/expert-interview
+Library|Literature study|https://ictresearchmethods.nl/library/literature-study
+Library|SWOT analysis|https://ictresearchmethods.nl/library/swot-analysis
+Field|Descriptive statistics|https://ictresearchmethods.nl/field/descriptive-statistics
+Field|Document analysis|https://ictresearchmethods.nl/field/document-analysis
+Field|Domain modelling|https://ictresearchmethods.nl/field/domain-modelling
+Field|Exploratory data analysis (ML)|https://ictresearchmethods.nl/field/exploratory-data-analysis
+Field|Explore user requirements|https://ictresearchmethods.nl/field/explore-user-requirements
+Field|Focus group|https://ictresearchmethods.nl/field/focus-group
+Field|Human impact score|https://ictresearchmethods.nl/field/human-impact-score
+Field|Interview|https://ictresearchmethods.nl/field/interview
+Field|Observation|https://ictresearchmethods.nl/field/observation
+Field|Problem analysis|https://ictresearchmethods.nl/field/problem-analysis
+Field|Stakeholder analysis|https://ictresearchmethods.nl/field/stakeholder-analysis
+Field|Survey|https://ictresearchmethods.nl/field/survey
+Field|Task analysis|https://ictresearchmethods.nl/field/task-analysis
+Lab|A/B testing|https://ictresearchmethods.nl/lab/a-b-testing
+Lab|Component test|https://ictresearchmethods.nl/lab/component-test
+Lab|Computer simulation|https://ictresearchmethods.nl/lab/computer-simulation
+Lab|Data analytics|https://ictresearchmethods.nl/lab/data-analytics
+Lab|Data quality check (ML)|https://ictresearchmethods.nl/lab/data-quality-check
+Lab|Hardware validation|https://ictresearchmethods.nl/lab/hardware-validation
+Lab|Inferential statistics|https://ictresearchmethods.nl/lab/inferential-statistics
+Lab|Model evaluation (ML)|https://ictresearchmethods.nl/lab/model-evaluation
+Lab|Model validation (ML)|https://ictresearchmethods.nl/lab/model-validation
+Lab|Non-functional test|https://ictresearchmethods.nl/lab/non-functional-test
+Lab|Security test|https://ictresearchmethods.nl/lab/security-test
+Lab|System test|https://ictresearchmethods.nl/lab/system-test
+Lab|Unit test|https://ictresearchmethods.nl/lab/unit-test
+Lab|Usability testing|https://ictresearchmethods.nl/lab/usability-testing
+Showroom|Benchmark test|https://ictresearchmethods.nl/showroom/benchmark-test
+Showroom|Ethical check|https://ictresearchmethods.nl/showroom/ethical-check
+Showroom|Guideline conformity analysis|https://ictresearchmethods.nl/showroom/guideline-conformity-analysis
+Showroom|Peer review|https://ictresearchmethods.nl/showroom/peer-review
+Showroom|Pitch|https://ictresearchmethods.nl/showroom/pitch
+Showroom|Product review|https://ictresearchmethods.nl/showroom/product-review
+Showroom|Static program analysis|https://ictresearchmethods.nl/showroom/static-program-analysis
+Workshop|Brainstorm|https://ictresearchmethods.nl/workshop/brainstorm
+Workshop|Business case exploration|https://ictresearchmethods.nl/workshop/business-case-exploration
+Workshop|Co-creation|https://ictresearchmethods.nl/workshop/co-creation
+Workshop|Code review|https://ictresearchmethods.nl/workshop/code-review
+Workshop|Decomposition|https://ictresearchmethods.nl/workshop/decomposition
+Workshop|Gap analysis|https://ictresearchmethods.nl/workshop/gap-analysis
+Workshop|Hackathon|https://ictresearchmethods.nl/workshop/hackathon
+Workshop|IT architecture sketching|https://ictresearchmethods.nl/workshop/it-architecture-sketching
+Workshop|Multi-criteria decision making|https://ictresearchmethods.nl/workshop/multi-criteria-decision-making
+Workshop|Prototyping|https://ictresearchmethods.nl/workshop/prototyping
+Workshop|Requirements prioritization|https://ictresearchmethods.nl/workshop/requirements-prioritization
+Workshop|Root cause analysis|https://ictresearchmethods.nl/workshop/root-cause-analysis
+Workshop|Silicon sampling|https://ictresearchmethods.nl/workshop/silicon-sampling

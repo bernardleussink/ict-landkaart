@@ -1,0 +1,34 @@
+# Onderwerpen die bij meerdere beroepsrollen horen. Ze komen als één zeshoek op de grens tussen de eilanden.
+# Formaat:  Onderwerp => ROL: Productnaam ; ROL: Productnaam ; ...
+# Productnamen moeten exact overeenkomen met beroepsproducten.txt.
+# Dit is een eerste voorstel; aanvullen of schrappen kan hier, daarna: python tools/importeer.py
+
+C4-model => AI: C4 ; BE: C4
+Versiebeheer (Git) => BE: Versiebeheer (GIT) ; FE: Git / versiebeheer ; TI: Versiebeheer (git, ci/cd) ; GD: Version Control Workflow
+CI/CD => BE: CI ; BE: CD ; FE: Continuous Integration (CI) ; FE: Continuous Development (CD) ; BIT: (Test) Pipeline to Market (CI/CD)
+Containers (Docker) => BE: Docker container/images ; FE: Docker image ; CI: Containerization (Docker)
+Kubernetes => BE: k8s ; CI: Container orchestration (Kubernetes)
+API-documentatie (OpenAPI) => BE: Open API / swagger ; FE: Swagger
+Unit- en integratietests => BE: Unit tests ; BE: Integration tests ; FE: Unit testing & integration testing
+Teststrategie => BE: Teststrategie ; BE: Testplan ; FE: Teststructuur opzetten ; AI: Teststrategie ML model
+Authenticatie => BE: JWT | OAuth ; FE: Authenticatie
+Performance => BE: Performance analyse ; FE: Lighthouse testen
+Framework- en stackkeuze => FE: Framework Vergelijken ; FE: Advies over handigste framework ; BE: Advies over stack, frameworks, databases, etc. gebaseerd op analyse
+Personas => UI/UX: Personas ; BIT: User persona's ; GD: Player Persona Set
+User journey => UI/UX: Customer Journey Mapping ; BIT: User journey ; FE: User Journey ; FE: User Journey Mapping ; GD: Player Journey Map
+Wireframes => UI/UX: Wireframes ; FE: Wireframe ; GD: Game HUD / UI Wireframes
+Interactief prototype => UI/UX: Interactive Prototype ; FE: Klikbaar prototype maken ; FE: Interactief Figma design maken
+Componenten en design system => UI/UX: Design Systems ; UI/UX: Figma components ; FE: Herbruikbare componenten ; FE: Opzetten storybook
+Usability testing => FE: User testing ; FE: Usability testplan ; GD: Playability & Usability Test Report ; GD: Usability & Playability Testing Setup
+Toegankelijkheid => FE: WCAG ; FE: Accessibility ; FE: Toegankelijkheid testing ; GD: Accessibility Advice
+Concurrentieanalyse => UI/UX: Competitor Analysis ; GD: Competitor Experience Analysis ; BIT: Concurrentie analyse
+Value proposition => UI/UX: Value Proposition ; BIT: Value Propostion Canvas (huidig) ; BIT: Value Propostion Canvas (gewenst)
+Business model => UI/UX: Business models ; BIT: Business Model Canvas (huidig) ; BIT: Business Model Canvas (gewenst)
+Productvisie => UI/UX: Product Vision ; BIT: Productvisie
+Requirements => BIT: Requierment analyse ; BIT: Requirement engineering ; FE: Requirement Analyse
+Overdrachtsdocumentatie => FE: Overdrachtsdocument ; BIT: (Overdrachts)documentatie
+BPMN-procesmodellen => BIT: Procesanalyse huidig (BPMN) ; BIT: Procesontwerp gewenst (BPMN) ; BE: BPMN
+Risicoanalyse => BIT: Risico analyse ; CS: Risicoanalyse ; CS: Risico en maatregelen analyse ; AI: Risico's en ethische implicaties
+Monitoring => BE: Grafana dashboards ; CS: Monitoring & alerting ; CS: Monitoring & logging
+Disaster recovery => CS: Disaster Recovery Plan ; CS: Disaster recovery ; CI: Backup & recovery
+Configuratiebeheer => CI: Configuration management (Ansible | Puppet | Chef) ; CS: Configuration management (CMDB)

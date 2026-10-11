@@ -1,0 +1,209 @@
+:root {
+  --navy: #0f2257;
+  --bg: #f4f4f2;
+  --zee: #e9e9e6;
+  --tekst: #1d1d1b;
+  --tekst-2: #5f5e5a;
+  --tekst-3: #8a8984;
+  --paneel: #ffffff;
+  --rand: #dcdbd5;
+  --kust: #0f2257;
+  --focus: #2b6cd8;
+
+
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: var(--tekst);
+  background: var(--bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161616;
+    --zee: #222221;
+    --tekst: #efeee9;
+    --tekst-2: #b4b2a9;
+    --tekst-3: #888780;
+    --paneel: #1f1f1e;
+    --rand: #3a3a38;
+    --kust: #c9c8c0;
+  }
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { display: flex; flex-direction: column; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+button, input, select { font: inherit; }
+
+/* ---------- Topbalk ---------- */
+.topbalk {
+  background: var(--navy);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  padding: 10px 20px;
+}
+.titel { display: flex; align-items: center; gap: 12px; }
+.titel h1 { font-size: 18px; margin: 0; font-weight: 600; letter-spacing: .02em; }
+.titel p { margin: 0; font-size: 12px; opacity: .75; }
+.logo {
+  width: 30px; height: 34px; background: #fff;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.filters input, .filters select, .filters button {
+  height: 34px; border-radius: 6px; border: 1px solid rgba(255,255,255,.25);
+  background: rgba(255,255,255,.1); color: #fff; padding: 0 10px;
+}
+.filters input { width: 240px; }
+.filters input::placeholder { color: rgba(255,255,255,.6); }
+.filters select option { color: #1d1d1b; }
+.filters button { cursor: pointer; }
+.filters button:hover { background: rgba(255,255,255,.2); }
+#treffers { font-size: 13px; opacity: .85; min-width: 70px; }
+
+/* ---------- Kaart ---------- */
+.kaartvlak { position: relative; flex: 1; overflow: hidden; }
+#kaart { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; user-select: none; }
+#kaart:active { cursor: grabbing; }
+#viewport.anim { transition: transform .35s ease; }
+
+.zee polygon { fill: var(--zee); }
+
+.hex { cursor: pointer; outline: none; }
+.hex polygon { stroke: var(--bg); stroke-width: 1.5; transition: opacity .2s; }
+.hex:hover polygon { stroke: var(--s); stroke-width: 3; }
+.hex:focus-visible polygon, .hex.selected polygon { stroke: var(--focus); stroke-width: 4; }
+.hex text { pointer-events: none; }
+.hex .code { font-size: 15px; font-weight: 700; }
+.hex .naam, .hex .codes { font-size: 9.5px; opacity: 0; transition: opacity .2s; }
+.hex .codes { font-size: 8.5px; font-weight: 700; }
+#kaart.detail .hex .naam, #kaart.detail .hex .codes { opacity: 1; }
+.hex.dim { opacity: .18; }
+.hex.hit polygon { stroke: var(--s); stroke-width: 3.5; }
+#kaart:not(.detail) .hex.hit .naam { opacity: 1; }
+
+.kustlijn { fill: none; stroke: var(--kust); stroke-width: 3.5; stroke-linecap: round; pointer-events: none; }
+/* Proef: geen grenslijnen, alleen de witte naden tussen de hexen. Verwijder de regel hieronder om ze terug te zetten. */
+.kustlijn { display: none; }
+
+.eilandlabels text {
+  font-size: 30px; font-weight: 700; fill: var(--tekst); pointer-events: none;
+  paint-order: stroke; stroke: var(--bg); stroke-width: 8px; stroke-linejoin: round; transition: opacity .2s;
+}
+#kaart.detail .eilandlabels text { opacity: 0; }
+
+.hex polygon { fill: var(--vul); }
+.hex text { fill: var(--tekst-hex); }
+
+.hex.gedeeld text { fill: #1d1d1b; }
+.hex.gedeeld > polygon { fill: transparent; } /* het kleurvlak eronder vormt de vulling */
+.gedeeld-vlak { width: 100%; height: 100%; pointer-events: none; clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); }
+.kleurvlak { pointer-events: none; }
+span.swatch.gedeeld-vlak { display: inline-block; width: 14px; height: 16px; }
+
+/* Productnamen: HTML-vak binnen de hex; afbreken met koppelteken, overflow wordt nooit zichtbaar */
+.hexlabel {
+  width: 100%; height: 100%; overflow: hidden; pointer-events: none;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  font-size: 9.5px; line-height: 1.15; color: var(--tekst-hex);
+  hyphens: manual; -webkit-hyphens: manual; overflow-wrap: normal;
+}
+.hexlabel.breek { overflow-wrap: anywhere; }
+.hex.gedeeld .hexlabel { color: #1d1d1b; }
+
+/* Beroepsrollen: grotere "badge" met dubbele witte rand en schaduw, altijd zichtbaar */
+.hex.rol { filter: url(#rolschaduw); }
+.hex.rol .ring { stroke: #ffffff; stroke-width: 2; }
+.hex.rol .binnenrand { fill: #e6e5e0; stroke: rgba(255, 255, 255, .75); stroke-width: 1.5; }
+.hex.rol .code { font-size: 21px; font-weight: 600; letter-spacing: .03em; transition: opacity .2s; }
+.hexlabel.rolnaam { font-size: 10.5px; font-weight: 600; line-height: 1.25; }
+#kaart.detail .hex.rol .code { opacity: 0; }
+.hex.rol:hover .ring { stroke: #ffffff; stroke-width: 3.5; }
+.hex.rol:hover .binnenrand { stroke: rgba(255, 255, 255, .75); stroke-width: 1.5; }
+.hex.rol:focus-visible .ring, .hex.rol.selected .ring, .hex.rol.hit .ring { stroke: var(--focus); stroke-width: 3; }
+.hex.rol:focus-visible .binnenrand, .hex.rol.selected .binnenrand, .hex.rol.hit .binnenrand { stroke: rgba(255, 255, 255, .75); stroke-width: 1.5; }
+
+/* ---------- Legenda en zoom ---------- */
+.legenda {
+  position: absolute; left: 16px; bottom: 16px; margin: 0; padding: 10px 14px;
+  list-style: none; background: var(--paneel); border: 1px solid var(--rand); border-radius: 10px;
+  font-size: 13px; color: var(--tekst-2); display: grid; gap: 4px;
+}
+.legenda li { display: flex; align-items: center; gap: 8px; }
+.legenda .kop { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--tekst-3); margin-top: 4px; }
+.legenda .kop:first-child { margin-top: 0; }
+.legenda .rollen { display: grid; grid-template-columns: repeat(3, auto); gap: 4px 12px; }
+.legenda .rollen > span { display: flex; align-items: center; gap: 6px; }
+.swatch { width: 14px; height: 16px; flex: none; }
+
+
+
+
+
+/* ---------- Factsheet ---------- */
+.factsheet {
+  position: absolute; top: 0; right: 0; height: 100%; width: 380px; max-width: 100%;
+  background: var(--paneel); border-left: 1px solid var(--rand);
+  padding: 20px 22px 32px; overflow-y: auto;
+  transform: translateX(100%); transition: transform .25s ease;
+}
+.factsheet.open { transform: none; }
+.sluiten {
+  position: absolute; top: 12px; right: 12px; width: 32px; height: 32px; border-radius: 6px;
+  border: none; background: transparent; font-size: 22px; color: var(--tekst-2); cursor: pointer;
+}
+.sluiten:hover { background: var(--zee); }
+
+.fs-kop { display: flex; align-items: center; gap: 10px; }
+.soort { font-size: 12px; color: var(--tekst-3); text-transform: uppercase; letter-spacing: .06em; }
+.factsheet h2 { font-size: 22px; margin: 10px 0 8px; outline: none; }
+.factsheet p { line-height: 1.6; margin: 0 0 8px; color: var(--tekst); }
+.badge {
+  display: inline-block; padding: 3px 9px; border-radius: 6px; font-size: 12px; font-weight: 700;
+  background: var(--r); color: var(--t);
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 12px; padding: 3px 9px; border-radius: 999px; background: var(--zee); color: var(--tekst-2); }
+.chips.trefwoorden { margin-top: 6px; }
+.chip.trefwoord { background: transparent; color: var(--focus); padding-left: 0; padding-right: 4px; }
+.chip.tool { background: transparent; border: 1px solid var(--rand); }
+
+.fs-sectie { border-top: 1px solid var(--rand); margin-top: 16px; padding-top: 12px; }
+.fs-sectie h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--tekst-3); margin: 0 0 8px; font-weight: 600; }
+.leeg { color: var(--tekst-3) !important; font-style: italic; font-size: 14px; }
+.factsheet a { color: var(--focus); text-decoration: none; }
+.factsheet a:hover { text-decoration: underline; }
+.links { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.ook { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+.score { margin-left: auto; font-size: 12px; color: var(--tekst-3); }
+.dot-bron { float: right; text-transform: none; letter-spacing: 0; font-weight: 400; font-size: 12px; }
+.dot-rij { display: flex; gap: 10px; align-items: flex-start; padding: 6px 0; }
+.dot-rij + .dot-rij { border-top: 1px dashed var(--rand); }
+.dot-logo { width: 36px; height: 36px; flex: none; object-fit: contain; }
+.dot-strategie { font-weight: 600; font-size: 14px; }
+.dot-methoden { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 14px; margin-top: 2px; }
+.perrol { margin-bottom: 8px; }
+.perrol ul { margin: 2px 0 0 0; padding-left: 18px; font-size: 14px; display: grid; gap: 2px; }
+.sub { font-size: 12px; color: var(--tekst-3); }
+.fs-kop .badge + .badge { margin-left: -4px; }
+.groepen { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.groepen li { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 14px; }
+.groepen .act { width: 100%; font-size: 12px; color: var(--tekst-3); }
+
+
+/* ---------- Mobiel: factsheet als bottom sheet ---------- */
+@media (max-width: 760px) {
+  .topbalk { padding: 10px 16px; }
+  .filters { width: 100%; }
+  .filters input { flex: 1 1 100%; width: auto; }
+  .filters select { flex: 1; min-width: 0; }
+  .legenda { display: none; }
+  .factsheet {
+    top: auto; bottom: 0; height: 65%; width: 100%; border-left: none; border-top: 1px solid var(--rand);
+    border-radius: 14px 14px 0 0; transform: translateY(100%);
+  }
+  .kaartvlak:has(.factsheet.open) }

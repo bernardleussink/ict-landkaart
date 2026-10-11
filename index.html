@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICT-landkaart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbalk">
+    <div class="titel">
+      <span class="logo" aria-hidden="true"></span>
+      <div>
+        <h1>ICT-landkaart</h1>
+        <p id="versie"></p>
+      </div>
+    </div>
+    <form class="filters" role="search" onsubmit="return false">
+      <label class="sr-only" for="f-zoek">Zoeken</label>
+      <input id="f-zoek" type="search" placeholder="Zoek product of tool, bijv. Figma">
+      <label class="sr-only" for="f-laag">Architectuurlaag</label>
+      <select id="f-laag"><option value="">Alle lagen</option></select>
+      <label class="sr-only" for="f-activiteit">Activiteit</label>
+      <select id="f-activiteit"><option value="">Alle activiteiten</option></select>
+      <button type="button" id="f-reset">Wis filters</button>
+      <span id="treffers" aria-live="polite"></span>
+    </form>
+  </header>
+
+  <main class="kaartvlak">
+    <svg id="kaart" role="application" aria-label="Kaart met beroepsrollen als eilanden van zeshoeken. Gebruik Tab om door de zeshoeken te gaan en Enter om de factsheet te openen.">
+      <g id="viewport"></g>
+    </svg>
+
+    <ul id="legenda" class="legenda" aria-label="Legenda"></ul>
+
+    <aside id="factsheet" class="factsheet" aria-hidden="true" aria-label="Factsheet">
+      <button id="factsheet-close" class="sluiten" aria-label="Factsheet sluiten">×</button>
+      <div id="factsheet-body"></div>
+    </aside>
+  </main>
+
+  <script type="module" src="js/kaart.js"></script>
+</body>
+</html>

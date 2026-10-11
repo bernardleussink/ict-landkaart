@@ -1,0 +1,30 @@
+# Trefwoorden voor beroepsproducten. Een product krijgt er 1 of 2 (vijfde kolom in beroepsproducten.txt).
+# Ze bepalen hoe "gedeeld" een product is: producten met trefwoorden die buurrollen ook veel hebben,
+# liggen op de kaart richting de grens met die buren.
+# Formaat:  trefwoord => omschrijving
+
+gebruikersonderzoek => Onderzoek naar gebruikers en spelers: interviews, personas, journeys, usability tests
+interactieontwerp => Ontwerpen van interfaces en interactie: wireframes, prototypes, design systems
+toegankelijkheid => Toegankelijkheid en inclusief ontwerp (WCAG, contrast)
+businessstrategie => Businessmodel, waardepropositie, visie, markt en concurrentie
+procesmodellering => Analyse en ontwerp van (bedrijfs)processen: BPMN, ITIL, servicedesign
+requirements => Probleemanalyse en het vastleggen van eisen en wensen
+technologiekeuze => Vergelijken en adviseren over technologie, frameworks, hardware en tools
+architectuur => Software- en systeemarchitectuur: C4, UML, patronen, structuur
+data => Datamodellering, datakwaliteit, datapipelines en data-architectuur
+ai-ml => Kunstmatige intelligentie en machine learning
+programmeren => Code schrijven: frameworks, componenten, paradigma's
+api-integratie => API's, koppelingen, communicatieprotocollen en integratie tussen systemen
+testen => Testen en teststrategie: unit, integratie, e2e, functioneel
+kwaliteit => Code- en productkwaliteit: reviews, performance, audits, conventies
+devops => Versiebeheer, CI/CD, containers en release
+infrastructuur => Cloud, netwerken, servers, opslag en virtualisatie
+security => Informatiebeveiliging: toegang, hardening, architectuur, incidenten
+risico-compliance => Risico's, privacy, wet- en regelgeving, normen en audits
+beheer => Beheer en monitoring van systemen en diensten, continuïteit
+projectmanagement => Planning, backlog, begroting, implementatie en stakeholders
+documentatie => Documentatie, handleidingen en overdracht
+hardware => Elektronica, embedded systemen en hardwarecomponenten
+gamedesign => Ontwerp van games: mechanics, levels, personages
+dashboards => Dashboards, KPI's en rapportage van gegevens
+ethiek => Ethiek, vertrouwen, uitlegbaarheid en maatschappelijke impact

@@ -1,0 +1,5299 @@
+{
+  "versie": "Prototype 2026-2027",
+  "lagen": [
+    "Gebruikersinteractie",
+    "Organisatieprocessen",
+    "Infrastructuur",
+    "Software",
+    "Hardwareinterfacing"
+  ],
+  "activiteiten": [
+    "Analyseren",
+    "Adviseren",
+    "Ontwerpen",
+    "Realiseren",
+    "Manage & control"
+  ],
+  "clusters": {
+    "ontwerp": {
+      "naam": "Ontwerp en interactie"
+    },
+    "software": {
+      "naam": "Software en data"
+    },
+    "infra": {
+      "naam": "Infra, security en hardware"
+    },
+    "organisatie": {
+      "naam": "Organisatie"
+    }
+  },
+  "rollen": [
+    {
+      "code": "UI/UX",
+      "naam": "UI/UX Designer",
+      "cluster": "ontwerp",
+      "positie": [
+        1,
+        1
+      ],
+      "beschrijving": "Vertaalt gebruikersonderzoek en productdoelen naar ontwerpkeuzes en ontwerpt iteratief aan consistente, intuïtieve en toegankelijke interfaces.",
+      "leerpaden": [
+        {
+          "label": "UX Design (roadmap.sh)",
+          "url": "https://roadmap.sh/ux-design"
+        }
+      ],
+      "producten": [
+        {
+          "naam": "5 Whys",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "requirements"
+          ],
+          "methoden": [
+            "Root cause analysis"
+          ]
+        },
+        {
+          "naam": "Affinity Diagrams",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "beschrijving": "Een manier om losse observaties uit onderzoek (quotes, notities) te clusteren tot thema's en inzichten.",
+          "tools": [
+            "Miro",
+            "Post-its"
+          ]
+        },
+        {
+          "naam": "Cognitive Map",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ]
+        },
+        {
+          "naam": "Competitor Analysis",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "businessstrategie",
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Competitive analysis"
+          ]
+        },
+        {
+          "naam": "Customer Journey Mapping",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview",
+            "Observation"
+          ]
+        },
+        {
+          "naam": "Empathy Mapping",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview",
+            "Observation"
+          ]
+        },
+        {
+          "naam": "Personas",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "beschrijving": "Fictieve maar op onderzoek gebaseerde gebruikersprofielen die doelen, frustraties en gedrag van een doelgroep samenvatten. Ze helpen het team om ontwerpkeuzes te toetsen aan echte behoeften.",
+          "tools": [
+            "Miro",
+            "FigJam",
+            "Interviews"
+          ],
+          "methoden": [
+            "Interview",
+            "Survey"
+          ]
+        },
+        {
+          "naam": "User Research",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview",
+            "Survey",
+            "Observation"
+          ]
+        },
+        {
+          "naam": "Business models",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Business case exploration"
+          ]
+        },
+        {
+          "naam": "Goal-Oriented Design",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "interactieontwerp",
+            "gebruikersonderzoek"
+          ]
+        },
+        {
+          "naam": "How might we's",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "requirements"
+          ],
+          "methoden": [
+            "Brainstorm"
+          ]
+        },
+        {
+          "naam": "Moodboards",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Pain & Gains",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "businessstrategie",
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview"
+          ]
+        },
+        {
+          "naam": "Product Vision",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ]
+        },
+        {
+          "naam": "Service blueprints",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "procesmodellering",
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "User Needs & Problems",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "requirements"
+          ],
+          "methoden": [
+            "Explore user requirements"
+          ]
+        },
+        {
+          "naam": "Value Proposition",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Business case exploration"
+          ]
+        },
+        {
+          "naam": "Crazy 8's",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Brainstorm"
+          ]
+        },
+        {
+          "naam": "Flow Charts",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "Gamification Patterns",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Lo-fi design",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Storyboards",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Wireflows",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Wireframes",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp"
+          ],
+          "tools": [
+            "Figma",
+            "Balsamiq"
+          ]
+        },
+        {
+          "naam": "Content & Story",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Figma components",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Interactive Prototype",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "interactieontwerp"
+          ],
+          "tools": [
+            "Figma",
+            "ProtoPie"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Responsive Design",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "interactieontwerp",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "UI / UX patterns",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Design pattern research"
+          ]
+        },
+        {
+          "naam": "A/B Testing",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "testen"
+          ],
+          "methoden": [
+            "A/B testing"
+          ]
+        },
+        {
+          "naam": "Atomic Design",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "interactieontwerp",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Design Systems",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Design pattern research"
+          ]
+        },
+        {
+          "naam": "Heuristic Evaluation",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "kwaliteit",
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "KPI's Analysis",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "dashboards",
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Data analytics"
+          ]
+        },
+        {
+          "naam": "UX/UI Audit",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "kwaliteit",
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Product review",
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "User research",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview",
+            "Survey",
+            "Observation"
+          ]
+        }
+      ],
+      "kleur": "#880E4F"
+    },
+    {
+      "code": "FE",
+      "naam": "Front-end developer",
+      "cluster": "ontwerp",
+      "positie": [
+        2,
+        7
+      ],
+      "beschrijving": "Bouwt de client-kant van web- en mobiele apps en zet UI/UX-ontwerpen om in responsieve, toegankelijke interfaces.",
+      "leerpaden": [
+        {
+          "label": "Frontend (roadmap.sh)",
+          "url": "https://roadmap.sh/frontend"
+        }
+      ],
+      "producten": [
+        {
+          "naam": "Componenten architectuur",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "programmeren"
+          ],
+          "methoden": [
+            "Decomposition"
+          ]
+        },
+        {
+          "naam": "Interactief Figma design maken",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Kleur gebruik contrast",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "toegankelijkheid",
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Project structuur",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Sitemap",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Teststructuur opzetten",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "testen"
+          ]
+        },
+        {
+          "naam": "Usability testplan",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "testen"
+          ],
+          "methoden": [
+            "Usability testing"
+          ]
+        },
+        {
+          "naam": "User Exprience",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp",
+            "gebruikersonderzoek"
+          ]
+        },
+        {
+          "naam": "User Journey",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview",
+            "Observation"
+          ]
+        },
+        {
+          "naam": "E2E-testing",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen"
+          ]
+        },
+        {
+          "naam": "Gebruikershandleiding",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "Klikbaar prototype maken",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Overdrachtsdocument",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "Readme",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "Toegankelijkheid testing",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "toegankelijkheid",
+            "testen"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "User testing",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "testen"
+          ],
+          "methoden": [
+            "Usability testing"
+          ]
+        },
+        {
+          "naam": "Docker image",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Docker compose",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Docker vulnerabilities",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "security",
+            "devops"
+          ],
+          "methoden": [
+            "Security test"
+          ]
+        },
+        {
+          "naam": "Casus Vaststellen",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "requirements"
+          ],
+          "methoden": [
+            "Problem analysis"
+          ]
+        },
+        {
+          "naam": "Framework Vergelijken",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Multi-criteria decision making",
+            "Available product analysis"
+          ]
+        },
+        {
+          "naam": "Probleem Analyse",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "requirements"
+          ],
+          "methoden": [
+            "Problem analysis"
+          ]
+        },
+        {
+          "naam": "Requirement Analyse",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "requirements"
+          ],
+          "methoden": [
+            "Explore user requirements"
+          ]
+        },
+        {
+          "naam": "UI Vergelijken",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "interactieontwerp",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Competitive analysis"
+          ]
+        },
+        {
+          "naam": "User Journey Mapping",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview",
+            "Observation"
+          ]
+        },
+        {
+          "naam": "Accessibility",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "toegankelijkheid"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Advies over handigste framework",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "CSS methodology (tailwind)",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "programmeren",
+            "technologiekeuze"
+          ]
+        },
+        {
+          "naam": "Library / package management",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "programmeren",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Performance rendering strategy (SSR, ISR, CSR)",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "kwaliteit",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Statemanagement",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "architectuur",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Folderstructuur organiseren",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "programmeren",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Framework gebruiken (algemeen)",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Lighthouse testen",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "kwaliteit",
+            "toegankelijkheid"
+          ],
+          "methoden": [
+            "Benchmark test",
+            "Non-functional test"
+          ]
+        },
+        {
+          "naam": "Mockdata opzetten",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "testen",
+            "data"
+          ]
+        },
+        {
+          "naam": "OOP structuur",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "programmeren",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Rubber Duck",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "kwaliteit",
+            "programmeren"
+          ],
+          "methoden": [
+            "Code review"
+          ]
+        },
+        {
+          "naam": "Toepassen SDG's op front-end",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ethiek"
+          ],
+          "methoden": [
+            "Human impact score"
+          ]
+        },
+        {
+          "naam": "Toepassen van DRY en KISS",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "kwaliteit",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Wireframe",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Authenticatie",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security",
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "Framework React gebruiken",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Herbruikbare componenten",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "programmeren",
+            "interactieontwerp"
+          ],
+          "tools": [
+            "React",
+            "Vue",
+            "Svelte"
+          ]
+        },
+        {
+          "naam": "Mockdata opzetten",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen",
+            "data"
+          ]
+        },
+        {
+          "naam": "Realiseren prototype naar code",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "programmeren",
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "SAAS dashboard",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "dashboards",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Unit testing & integration testing",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen"
+          ],
+          "methoden": [
+            "Unit test",
+            "Component test"
+          ]
+        },
+        {
+          "naam": "Validatie client-side",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "programmeren",
+            "security"
+          ]
+        },
+        {
+          "naam": "Automatic testing",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "testen",
+            "devops"
+          ],
+          "methoden": [
+            "Unit test"
+          ]
+        },
+        {
+          "naam": "Continuous Development (CD)",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Continuous Integration (CI)",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Conventies",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "kwaliteit",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Git / versiebeheer",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Linting",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Static program analysis"
+          ]
+        },
+        {
+          "naam": "Opzetten storybook",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "interactieontwerp",
+            "documentatie"
+          ],
+          "tools": [
+            "Storybook"
+          ]
+        },
+        {
+          "naam": "Overdrachtsdocument",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "Swagger",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "api-integratie",
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "WCAG",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "toegankelijkheid"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        }
+      ],
+      "kleur": "#D35400"
+    },
+    {
+      "code": "GD",
+      "naam": "Game developer",
+      "cluster": "ontwerp",
+      "positie": [
+        -5,
+        8
+      ],
+      "beschrijving": "Creëert een spelwereld met regels en keuzes voor spelers, meestal in een game-engine, en test vaak met de doelgroep.",
+      "leerpaden": [
+        {
+          "label": "Game Developer (roadmap.sh)",
+          "url": "https://roadmap.sh/game-developer"
+        }
+      ],
+      "producten": [
+        {
+          "naam": "Competitor Experience Analysis",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "businessstrategie",
+            "gamedesign"
+          ],
+          "methoden": [
+            "Competitive analysis",
+            "Available product analysis"
+          ]
+        },
+        {
+          "naam": "Playability & Usability Test Report",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "testen"
+          ],
+          "methoden": [
+            "Usability testing"
+          ]
+        },
+        {
+          "naam": "Player Journey Map",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "gamedesign"
+          ],
+          "methoden": [
+            "Observation"
+          ]
+        },
+        {
+          "naam": "Player Persona Set",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "gamedesign"
+          ],
+          "methoden": [
+            "Interview",
+            "Survey"
+          ]
+        },
+        {
+          "naam": "Accessibility Advice",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "toegankelijkheid",
+            "gamedesign"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Game Asset List",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "gamedesign",
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Game UX Heuristic Review",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "kwaliteit",
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Monetization Ethics Advice",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ethiek",
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Ethical check"
+          ]
+        },
+        {
+          "naam": "New Game Pitch",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "businessstrategie",
+            "gamedesign"
+          ],
+          "methoden": [
+            "Pitch"
+          ]
+        },
+        {
+          "naam": "(Non-)Playable Character Design",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Core Game Mechanic Design",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Game Design Document",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "gamedesign",
+            "documentatie"
+          ],
+          "beschrijving": "Het centrale document waarin visie, mechanics, levels, doelgroep en scope van een game worden vastgelegd.",
+          "tools": [
+            "Notion",
+            "Confluence"
+          ]
+        },
+        {
+          "naam": "Game HUD / UI Style Guide",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Game HUD / UI Wireframes",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Level Interaction Design",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "gamedesign",
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Core Game Mechanic Prototype",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign",
+            "programmeren"
+          ],
+          "tools": [
+            "Unity",
+            "Godot",
+            "Unreal"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Game Asset Prototype",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Input & Control System Prototype",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Paper Prototype",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign",
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Tutorial Prototype",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign",
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Player Feedback Dashboard",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "dashboards",
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Data analytics"
+          ]
+        },
+        {
+          "naam": "Pre-release UX Quality Checklist",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "kwaliteit",
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "UX Iteration Log & Decision Tracker",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "documentatie",
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Usability & Playability Testing Setup",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "testen"
+          ],
+          "methoden": [
+            "Usability testing"
+          ]
+        },
+        {
+          "naam": "Bug Impact Analysis",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "testen",
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Root cause analysis"
+          ]
+        },
+        {
+          "naam": "Code Performance Review",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Benchmark test",
+            "Code review"
+          ]
+        },
+        {
+          "naam": "Game Architecture Risk Scan",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "architectuur",
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Peer review"
+          ]
+        },
+        {
+          "naam": "Game AI Approach Recommendation",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "gamedesign",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Game Engine Recommendation",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze",
+            "gamedesign"
+          ],
+          "methoden": [
+            "Multi-criteria decision making",
+            "Available product analysis"
+          ]
+        },
+        {
+          "naam": "Game Optimization Strategy",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "kwaliteit",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Game System Architecture Proposal",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "architectuur",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "AI Behavior Tree Design",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "gamedesign",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Core Game Mechanic System Design",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "gamedesign",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Multiplayer Sync Design",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "api-integratie",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Save/Load System Design",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "data",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "State Machine Design",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Enemy AI Implementation",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Game Release Build",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "devops",
+            "gamedesign"
+          ]
+        },
+        {
+          "naam": "Inventory & Progression System",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Modular Game Mechanics System",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Multiplayer Prototype",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "api-integratie",
+            "gamedesign"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Playable Digital Prototype",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "gamedesign",
+            "programmeren"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Automated Testing Setup",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "testen",
+            "devops"
+          ],
+          "methoden": [
+            "Unit test"
+          ]
+        },
+        {
+          "naam": "Bug Tracking Report",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "testen",
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Build & Release Pipeline Script",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Build & Release Quality Checklist",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "kwaliteit",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Performance Monitoring Dashboard",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "dashboards",
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Benchmark test"
+          ]
+        },
+        {
+          "naam": "Version Control Workflow",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        }
+      ],
+      "kleur": "#8950C7"
+    },
+    {
+      "code": "BE",
+      "naam": "Back-end Developer",
+      "cluster": "software",
+      "positie": [
+        8,
+        7
+      ],
+      "beschrijving": "Vertaalt de bedrijfsvraag naar systemen: ontsluit data, bouwt applicaties en integraties tussen systemen.",
+      "leerpaden": [
+        {
+          "label": "Backend (roadmap.sh)",
+          "url": "https://roadmap.sh/backend"
+        },
+        {
+          "label": "API design (roadmap.sh)",
+          "url": "https://roadmap.sh/api-design"
+        }
+      ],
+      "producten": [
+        {
+          "naam": "Code reviews",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Code review",
+            "Peer review"
+          ]
+        },
+        {
+          "naam": "Code smells / statische analyse",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Static program analysis"
+          ]
+        },
+        {
+          "naam": "ISO 25010",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Performance analyse",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Benchmark test",
+            "Non-functional test"
+          ]
+        },
+        {
+          "naam": "Test coverage",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "testen",
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Unit test"
+          ]
+        },
+        {
+          "naam": "Advies over stack, frameworks, databases, etc. gebaseerd op MCD",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze",
+            "architectuur"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Advies over stack, frameworks, databases, etc. gebaseerd op analyse",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Available product analysis",
+            "Literature study"
+          ]
+        },
+        {
+          "naam": "Architectuur Patronen/bestaande componenten (2,3 Design Patterns, Design Principes, Message Brokers)",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur"
+          ],
+          "methoden": [
+            "Design pattern research"
+          ]
+        },
+        {
+          "naam": "BPMN",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "C4",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur"
+          ],
+          "methoden": [
+            "IT architecture sketching"
+          ]
+        },
+        {
+          "naam": "ERD",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "data"
+          ],
+          "methoden": [
+            "Domain modelling"
+          ]
+        },
+        {
+          "naam": "Normaliseren",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "data"
+          ]
+        },
+        {
+          "naam": "Teststrategie",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "testen"
+          ]
+        },
+        {
+          "naam": "UML - activity diagram",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "UML - class diagram",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "UML - component diagram",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur"
+          ],
+          "methoden": [
+            "Decomposition"
+          ]
+        },
+        {
+          "naam": "UML - deployment diagram",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "UML - sequence diagram",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "UML - state diagram",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "UML - use case diagram",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "requirements",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "CQRS",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "architectuur",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Domain driven design",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "architectuur",
+            "programmeren"
+          ],
+          "methoden": [
+            "Domain modelling"
+          ]
+        },
+        {
+          "naam": "Event-driven architecture",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "architectuur",
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "Functional tests",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen"
+          ],
+          "methoden": [
+            "System test"
+          ]
+        },
+        {
+          "naam": "Integration tests",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen",
+            "api-integratie"
+          ],
+          "methoden": [
+            "Component test"
+          ]
+        },
+        {
+          "naam": "JWT | OAuth",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security",
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "OOP, imperative, functioneel",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "ORM",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "data",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Prototypen",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "programmeren"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "REST | gRPC | GraphQL | SOAP",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "Security by design (OWASP)",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security"
+          ],
+          "methoden": [
+            "Security test",
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Serverless (AWS/Azure)",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "infrastructuur",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Services/API's restfull principes",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "Test driven development",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen",
+            "programmeren"
+          ],
+          "methoden": [
+            "Unit test"
+          ]
+        },
+        {
+          "naam": "Unit tests",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen"
+          ],
+          "beschrijving": "Geautomatiseerde tests die kleine stukjes code los van de rest controleren, zodat wijzigingen veilig en snel gedaan kunnen worden.",
+          "tools": [
+            "xUnit",
+            "JUnit",
+            "pytest"
+          ],
+          "methoden": [
+            "Unit test"
+          ]
+        },
+        {
+          "naam": "WebSockets",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "CD",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "CI",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Coding conventies",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "kwaliteit",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Docker container/images",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Grafana dashboards",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "dashboards",
+            "beheer"
+          ],
+          "tools": [
+            "Grafana",
+            "Prometheus"
+          ]
+        },
+        {
+          "naam": "Open API / swagger",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "api-integratie",
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "Testplan",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "testen"
+          ]
+        },
+        {
+          "naam": "Versiebeheer (GIT)",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "k8s",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops",
+            "infrastructuur"
+          ]
+        }
+      ],
+      "kleur": "#B71C1C"
+    },
+    {
+      "code": "AI",
+      "naam": "AI Engineer",
+      "cluster": "software",
+      "positie": [
+        17,
+        0
+      ],
+      "beschrijving": "Zet AI in om processen te verbeteren overal waar data of kenniswerk is: van banken en overheid tot startups.",
+      "leerpaden": [
+        {
+          "label": "AI Engineer (roadmap.sh)",
+          "url": "https://roadmap.sh/ai-engineer"
+        }
+      ],
+      "producten": [
+        {
+          "naam": "Explainability",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "ethiek",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Ethical check"
+          ]
+        },
+        {
+          "naam": "Gebruikersbehoefte kaart bij AI-functionaliteit",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Explore user requirements"
+          ]
+        },
+        {
+          "naam": "Gebruikersfeedback voor modelverbetering",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Survey"
+          ]
+        },
+        {
+          "naam": "Gebruikersvertrouwen",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "ethiek",
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Survey",
+            "Interview"
+          ]
+        },
+        {
+          "naam": "Interactiepatronen met AI-systemen",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "interactieontwerp",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Usability tests",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek",
+            "testen"
+          ],
+          "methoden": [
+            "Usability testing"
+          ]
+        },
+        {
+          "naam": "AI-oplossing",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "technologiekeuze"
+          ]
+        },
+        {
+          "naam": "Ethical AI interface",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ethiek",
+            "interactieontwerp"
+          ],
+          "methoden": [
+            "Ethical check"
+          ]
+        },
+        {
+          "naam": "Human-in-the-loop",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "AI-ondersteunde user flow",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Explainability interfaces",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp",
+            "ethiek"
+          ]
+        },
+        {
+          "naam": "Feedbackmechanismen voor modelverbetering",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "interactieontwerp",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Feedbacksysteem voor modelverbetering",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Implementatie AI-chatbots of agents",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Prompt-based interfaces",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "interactieontwerp"
+          ]
+        },
+        {
+          "naam": "Beheer prompt libraries",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ai-ml",
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Governance voor verantwoord gebruik AI interfaces",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ethiek",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Monitoring mens-AI gebruik",
+          "laag": "Gebruikersinteractie",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ai-ml",
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Data Governance",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "data",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Data bias",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "data",
+            "ethiek"
+          ],
+          "methoden": [
+            "Data quality check (ML)"
+          ]
+        },
+        {
+          "naam": "Datavolwassenheid: beschikbaarheid en kwaliteit",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "data"
+          ],
+          "methoden": [
+            "Data quality check (ML)"
+          ]
+        },
+        {
+          "naam": "Geschiktheid bedrijfsprocessen voor AI-automatisering",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "procesmodellering",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Identificatie AI use cases binnen organisatie",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "ai-ml",
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Business case exploration"
+          ]
+        },
+        {
+          "naam": "Risico's en ethische implicaties",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "risico-compliance",
+            "ethiek"
+          ],
+          "methoden": [
+            "Ethical check",
+            "Human impact score"
+          ]
+        },
+        {
+          "naam": "AI implementatie advies obv bestaande processen",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "Algorithmes/technieken",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Literature study"
+          ]
+        },
+        {
+          "naam": "Databronnen en kwaliteit",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "data"
+          ]
+        },
+        {
+          "naam": "Impact advies",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Human impact score"
+          ]
+        },
+        {
+          "naam": "Trustworthy AI",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ethiek",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Ethical check"
+          ]
+        },
+        {
+          "naam": "AI lifecycle processen",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ai-ml",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "Human-AI samenwerking in processen",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ai-ml",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "Ontwerp databronnen, -kwaliteit en -stromen",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "data",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "AI based decision support system",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "AI integratie in bedrijfsprocessen",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "AI-ondersteunde procesautomatisering",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "Data pipelines",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "data",
+            "devops"
+          ]
+        },
+        {
+          "naam": "AI lifecycle governance",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ai-ml",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Analyse compute en storage behoeften",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "infrastructuur",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Cloud vs local AI",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "infrastructuur",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "AI platformen",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "technologiekeuze"
+          ]
+        },
+        {
+          "naam": "MLOps tooling",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "devops"
+          ]
+        },
+        {
+          "naam": "AI/ML infra-architectuur ontwerp",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ai-ml",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "MLOps pipelines",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ai-ml",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Containerized AI services",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Data pipelines",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "data",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Inrichting MLOps",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Resource management for training",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ai-ml",
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "AI/ML model analyse",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "ai-ml"
+          ],
+          "methoden": [
+            "Model evaluation (ML)"
+          ]
+        },
+        {
+          "naam": "Accuracy | Precision | Recall | F1",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "ai-ml",
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Model evaluation (ML)"
+          ]
+        },
+        {
+          "naam": "Analyse integratie met bestaande systemen",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "api-integratie",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "EDA",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "data",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Exploratory data analysis (ML)"
+          ]
+        },
+        {
+          "naam": "Model performance analyse",
+          "laag": "Software",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "ai-ml",
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Model evaluation (ML)"
+          ]
+        },
+        {
+          "naam": "Advies data-architectuur",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "data",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Frameworks",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Available product analysis"
+          ]
+        },
+        {
+          "naam": "Kosten GenAI",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Business case exploration"
+          ]
+        },
+        {
+          "naam": "LLM",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Literature study",
+            "Benchmark test"
+          ]
+        },
+        {
+          "naam": "Modelarchitectuur",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Mogelijkheden GenAI",
+          "laag": "Software",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "ai-ml",
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Literature study"
+          ]
+        },
+        {
+          "naam": "C4",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur"
+          ],
+          "methoden": [
+            "IT architecture sketching"
+          ]
+        },
+        {
+          "naam": "Data Preparation",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "data",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Data quality check (ML)"
+          ]
+        },
+        {
+          "naam": "Data card",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "data",
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "Feature engineering strategie",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ai-ml",
+            "data"
+          ]
+        },
+        {
+          "naam": "ML pipelines",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ai-ml",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Model architecture",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ai-ml",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Model evaluatie strategie",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "ai-ml",
+            "testen"
+          ],
+          "methoden": [
+            "Model evaluation (ML)",
+            "Model validation (ML)"
+          ]
+        },
+        {
+          "naam": "Ontwerp data-architectuur",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "data",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Teststrategie ML model",
+          "laag": "Software",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "testen",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Model validation (ML)"
+          ]
+        },
+        {
+          "naam": "Geïmplementeerde dataoplossing",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "data",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Implementatie ML-componenten",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Implementatie pre-trained model",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Integratie AI model in applicatie",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "LMM implementatie",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Prompt engineering",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Trainen ML model",
+          "laag": "Software",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "ai-ml"
+          ],
+          "tools": [
+            "scikit-learn",
+            "PyTorch"
+          ],
+          "methoden": [
+            "Model validation (ML)"
+          ]
+        },
+        {
+          "naam": "CI/CD pipeline voor data",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops",
+            "data"
+          ]
+        },
+        {
+          "naam": "Implementatieplan continues improvements",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ai-ml",
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Lifecycle management",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ai-ml",
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Model performance",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ai-ml",
+            "beheer"
+          ],
+          "methoden": [
+            "Model evaluation (ML)"
+          ]
+        },
+        {
+          "naam": "Versieberheer modellen",
+          "laag": "Software",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "ai-ml",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Energieverbruik AI modellen",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "ai-ml",
+            "hardware"
+          ],
+          "methoden": [
+            "Benchmark test"
+          ]
+        },
+        {
+          "naam": "Hardwarevereisten voor AI workloads",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "ai-ml",
+            "hardware"
+          ]
+        },
+        {
+          "naam": "CPU vs GPUs",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "hardware",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Benchmark test"
+          ]
+        },
+        {
+          "naam": "Kostenoptimalisatie van AI hardware",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "hardware",
+            "ai-ml"
+          ]
+        }
+      ],
+      "kleur": "#4B0082"
+    },
+    {
+      "code": "BIT",
+      "naam": "Business IT Engineer",
+      "cluster": "organisatie",
+      "positie": [
+        8,
+        -1
+      ],
+      "beschrijving": "Staat met één been in de organisatie en één been in de IT, en zorgt dat de wens van een opdrachtgever eindigt in een passende oplossing.",
+      "leerpaden": [],
+      "producten": [
+        {
+          "naam": "Business Model Canvas (huidig)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Document analysis",
+            "Interview"
+          ]
+        },
+        {
+          "naam": "Concurrentie analyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Competitive analysis"
+          ]
+        },
+        {
+          "naam": "DESTEP analyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Literature study"
+          ]
+        },
+        {
+          "naam": "Gap analyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "businessstrategie",
+            "procesmodellering"
+          ],
+          "methoden": [
+            "Gap analysis"
+          ]
+        },
+        {
+          "naam": "Procesanalyse huidig (BPMN)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "procesmodellering"
+          ],
+          "tools": [
+            "BPMN",
+            "Camunda Modeler"
+          ],
+          "methoden": [
+            "Observation",
+            "Interview"
+          ]
+        },
+        {
+          "naam": "Procesanalyse huidig (ITIL)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "procesmodellering",
+            "beheer"
+          ],
+          "methoden": [
+            "Document analysis"
+          ]
+        },
+        {
+          "naam": "Requierment analyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "requirements"
+          ],
+          "methoden": [
+            "Explore user requirements"
+          ]
+        },
+        {
+          "naam": "Risico analyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "SWOT analyse (huidig)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ],
+          "methoden": [
+            "SWOT analysis"
+          ]
+        },
+        {
+          "naam": "Stakeholder map/RASCI (analyse)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "projectmanagement",
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Stakeholder analysis"
+          ]
+        },
+        {
+          "naam": "User journey",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview"
+          ]
+        },
+        {
+          "naam": "User persona's",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "gebruikersonderzoek"
+          ],
+          "methoden": [
+            "Interview",
+            "Survey"
+          ]
+        },
+        {
+          "naam": "Value Propostion Canvas (huidig)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ]
+        },
+        {
+          "naam": "Adviesrapport obv analyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "businessstrategie",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Adviesrapport obv ontwerp",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Missie/visie van organisatie",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ]
+        },
+        {
+          "naam": "Productvisie",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "businessstrategie"
+          ]
+        },
+        {
+          "naam": "Business Model Canvas (gewenst)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "businessstrategie"
+          ],
+          "methoden": [
+            "Business case exploration"
+          ]
+        },
+        {
+          "naam": "Implementatieplan (ADKAR, Kotter, ITIL transition, Cynefin)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Procesontwerp gewenst (BPMN)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "Productbacklog refinement (INVEST/DEEP)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "projectmanagement",
+            "requirements"
+          ],
+          "methoden": [
+            "Requirements prioritization"
+          ]
+        },
+        {
+          "naam": "Requirement engineering",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "requirements"
+          ],
+          "methoden": [
+            "Explore user requirements",
+            "Requirements prioritization"
+          ]
+        },
+        {
+          "naam": "Roadmap",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "projectmanagement",
+            "businessstrategie"
+          ]
+        },
+        {
+          "naam": "SWOT (gewenst)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "businessstrategie"
+          ],
+          "methoden": [
+            "SWOT analysis"
+          ]
+        },
+        {
+          "naam": "Servicedesign ITIL (gewenst)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "procesmodellering",
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Stakeholder communicatieplan",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Value Propostion Canvas (gewenst)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "businessstrategie"
+          ]
+        },
+        {
+          "naam": "Dashboards (Excel, PowerBI, etc)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "dashboards",
+            "data"
+          ],
+          "methoden": [
+            "Data analytics"
+          ]
+        },
+        {
+          "naam": "Functionele testen",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen"
+          ],
+          "methoden": [
+            "System test"
+          ]
+        },
+        {
+          "naam": "Inrichten standaardapplicatie",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Low-code oplossing maken",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "programmeren"
+          ],
+          "tools": [
+            "Power Apps",
+            "OutSystems",
+            "Mendix"
+          ]
+        },
+        {
+          "naam": "Productbacklog management",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Uitvoeren implementatieplan",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Vibe-code voor POC",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "programmeren",
+            "ai-ml"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "(Overdrachts)documentatie",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "(Test) Pipeline to Market (CI/CD)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops",
+            "testen"
+          ]
+        },
+        {
+          "naam": "Algeme voorwaarden",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Begroting (uren+geld)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Burndown chart",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Privacy beleid",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Qualitycontrol (story's)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "kwaliteit",
+            "requirements"
+          ]
+        },
+        {
+          "naam": "Service Level Agreement",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Werk inschatten (Planpoker)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "projectmanagement"
+          ]
+        }
+      ],
+      "kleur": "#9A7300"
+    },
+    {
+      "code": "CS",
+      "naam": "Cyber Security Engineer",
+      "cluster": "infra",
+      "positie": [
+        14,
+        10
+      ],
+      "beschrijving": "Ontwerpt, implementeert en onderhoudt beveiligingsmaatregelen; analyseert risico's, monitort dreigingen en handelt incidenten af.",
+      "leerpaden": [
+        {
+          "label": "Cyber Security (roadmap.sh)",
+          "url": "https://roadmap.sh/cyber-security"
+        }
+      ],
+      "producten": [
+        {
+          "naam": "Business Impact Analyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "risico-compliance",
+            "businessstrategie"
+          ]
+        },
+        {
+          "naam": "Privacyanalyse (DPIA)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "risico-compliance"
+          ],
+          "methoden": [
+            "Ethical check",
+            "Document analysis"
+          ]
+        },
+        {
+          "naam": "Proces gapanalyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "risico-compliance",
+            "procesmodellering"
+          ],
+          "methoden": [
+            "Gap analysis"
+          ]
+        },
+        {
+          "naam": "Risico en maatregelen analyse",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "risico-compliance",
+            "security"
+          ]
+        },
+        {
+          "naam": "Security checklist",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "security"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Business Continuity Management",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "beheer",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Prioriteiten in Annex A ISO 27.xxxx controls",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "risico-compliance",
+            "security"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Prioriteiten in CIS Controls",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "risico-compliance",
+            "security"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Privacy-waarborgingsadvies",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Risk & compliance-advies",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Security roadmap",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "security",
+            "projectmanagement"
+          ]
+        },
+        {
+          "naam": "Security-implementatieadvies",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "security"
+          ]
+        },
+        {
+          "naam": "Disaster Recovery Plan",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "beheer",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Procesontwerp voor een of meerdere controls",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "procesmodellering",
+            "security"
+          ]
+        },
+        {
+          "naam": "SOC-processen",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "security",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "CIS controls voor domein in organisatie",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Identity & Access Management (IAM)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security"
+          ]
+        },
+        {
+          "naam": "Information Security Management System (ISMS)",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "SOC use cases",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security",
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Audit & reporting",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "risico-compliance"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Control reporting",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Incident Response Book",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "security",
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Proces eigenaarschap vaststellen",
+          "laag": "Organisatieprocessen",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "procesmodellering",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Gapanalyse",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "security",
+            "risico-compliance"
+          ],
+          "methoden": [
+            "Gap analysis"
+          ]
+        },
+        {
+          "naam": "Incidentanalyse",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "security"
+          ],
+          "methoden": [
+            "Root cause analysis"
+          ]
+        },
+        {
+          "naam": "Privacyanalyse",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "risico-compliance"
+          ],
+          "methoden": [
+            "Document analysis"
+          ]
+        },
+        {
+          "naam": "Risicoanalyse",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "risico-compliance",
+            "security"
+          ]
+        },
+        {
+          "naam": "Security checklist",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "security"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Lifecycle-advies",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "beheer",
+            "security"
+          ]
+        },
+        {
+          "naam": "Privacy-waarborgingsadvies",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Risk & compliance-advies",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "Security-implementatieadvies",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "security"
+          ]
+        },
+        {
+          "naam": "Access architecture (technisch)",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "security",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Identity architecture",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "security",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Privacy by design (GDPR)",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "risico-compliance",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Security architectuur (Zero Trust)",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "security",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Identity & Access Management (IAM)",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security"
+          ]
+        },
+        {
+          "naam": "Monitoring & logging",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "beheer",
+            "security"
+          ]
+        },
+        {
+          "naam": "Network security",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security",
+            "infrastructuur"
+          ],
+          "methoden": [
+            "Security test"
+          ]
+        },
+        {
+          "naam": "Secrets management",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security",
+            "devops"
+          ]
+        },
+        {
+          "naam": "Security hardening",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "security",
+            "infrastructuur"
+          ],
+          "methoden": [
+            "Security test"
+          ]
+        },
+        {
+          "naam": "Audit & reporting",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "risico-compliance"
+          ],
+          "methoden": [
+            "Guideline conformity analysis"
+          ]
+        },
+        {
+          "naam": "Configuration management (CMDB)",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Disaster recovery",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer",
+            "risico-compliance"
+          ]
+        },
+        {
+          "naam": "IT service management (ITIL)",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer",
+            "procesmodellering"
+          ]
+        },
+        {
+          "naam": "Monitoring & alerting",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Patch management",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer",
+            "security"
+          ]
+        },
+        {
+          "naam": "Policy enforcement",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "security",
+            "risico-compliance"
+          ]
+        }
+      ],
+      "kleur": "#085308"
+    },
+    {
+      "code": "CI",
+      "naam": "Cloud & Infra Engineer",
+      "cluster": "infra",
+      "positie": [
+        6,
+        15
+      ],
+      "beschrijving": "Ontwerpt, automatiseert en beheert moderne infrastructuur (cloud, netwerken, servers, containers) die veilig en schaalbaar is.",
+      "leerpaden": [
+        {
+          "label": "DevOps (roadmap.sh)",
+          "url": "https://roadmap.sh/devops"
+        },
+        {
+          "label": "Docker (roadmap.sh)",
+          "url": "https://roadmap.sh/docker"
+        }
+      ],
+      "producten": [
+        {
+          "naam": "Infrastructuurscan",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Kwaliteitsanalyse",
+          "laag": "Infrastructuur",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "infrastructuur",
+            "kwaliteit"
+          ],
+          "methoden": [
+            "Non-functional test"
+          ]
+        },
+        {
+          "naam": "Architectuuradvies",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "architectuur",
+            "infrastructuur"
+          ],
+          "methoden": [
+            "IT architecture sketching"
+          ]
+        },
+        {
+          "naam": "Cloudstrategieadvies",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "infrastructuur",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Data-infrastructuuradvies",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "data",
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Netwerk- en infrastructuur(tooling)advies",
+          "laag": "Infrastructuur",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "infrastructuur",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Multi-criteria decision making",
+            "Available product analysis"
+          ]
+        },
+        {
+          "naam": "Cloudspecificaties",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Cost optimization design (FinOps)",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "infrastructuur",
+            "businessstrategie"
+          ]
+        },
+        {
+          "naam": "High availability ontwerp",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "infrastructuur",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Infrastructuurontwerp",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "infrastructuur",
+            "architectuur"
+          ],
+          "methoden": [
+            "IT architecture sketching"
+          ]
+        },
+        {
+          "naam": "Logical architectuur",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "infrastructuur"
+          ],
+          "methoden": [
+            "IT architecture sketching"
+          ]
+        },
+        {
+          "naam": "Netwerkontwerp",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Netwerkspecificaties",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Ontwerp van een SOC",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "security",
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Physical architectuur",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "infrastructuur"
+          ],
+          "methoden": [
+            "IT architecture sketching"
+          ]
+        },
+        {
+          "naam": "Relaties tussen (cloud-agnostische) infrastructuur",
+          "laag": "Infrastructuur",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "infrastructuur",
+            "architectuur"
+          ]
+        },
+        {
+          "naam": "Backup & recovery",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "beheer",
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Cloud provisioning (AWS | Azure | GCP)",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Configuration management (Ansible | Puppet | Chef)",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "devops",
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Container orchestration (Kubernetes)",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "devops",
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Containerization (Docker)",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "High availability",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "infrastructuur"
+          ],
+          "methoden": [
+            "Non-functional test"
+          ]
+        },
+        {
+          "naam": "Infrastructure as Code (Terraform | Bicep | CloudFormation)",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "devops",
+            "infrastructuur"
+          ],
+          "beschrijving": "Infrastructuur (servers, netwerken, cloudresources) vastleggen in code, zodat omgevingen herhaalbaar, controleerbaar en versiebeheerd worden opgebouwd.",
+          "tools": [
+            "Terraform",
+            "Bicep",
+            "CloudFormation"
+          ],
+          "leerpad": "https://roadmap.sh/terraform"
+        },
+        {
+          "naam": "Infrastructuur opzetten",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Load balancing",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "infrastructuur"
+          ],
+          "methoden": [
+            "Non-functional test"
+          ]
+        },
+        {
+          "naam": "Networking (VPC | VNets | Subnets | Routing)",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Storage Provisioning",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Virtualisatie (VMware | Hyper-V | KVM)",
+          "laag": "Infrastructuur",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "infrastructuur"
+          ]
+        },
+        {
+          "naam": "Asset management",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Beheerimplementatie",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer"
+          ]
+        },
+        {
+          "naam": "Beheerprocedures",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer",
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "Release management",
+          "laag": "Infrastructuur",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops",
+            "beheer"
+          ]
+        }
+      ],
+      "kleur": "#59C759"
+    },
+    {
+      "code": "TI",
+      "naam": "Embedded Software Engineer",
+      "cluster": "infra",
+      "positie": [
+        -1,
+        15
+      ],
+      "beschrijving": "Ontwerpt en bouwt hardware en software voor embedded systemen, van industriële automatisering tot IoT-apparaten.",
+      "leerpaden": [],
+      "producten": [
+        {
+          "naam": "Bestaand hardware (deel-)systeem analyse",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "hardware"
+          ],
+          "methoden": [
+            "Available product analysis"
+          ]
+        },
+        {
+          "naam": "Criteria analyse",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "requirements",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Datasheet vergelijking",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "hardware",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Available product analysis"
+          ]
+        },
+        {
+          "naam": "Specificatie vergelijking",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "hardware",
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Available product analysis"
+          ]
+        },
+        {
+          "naam": "Toepassing hardware componenten",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Analyseren",
+          "trefwoorden": [
+            "hardware"
+          ]
+        },
+        {
+          "naam": "Adviesrapport communicatieprotocol keuze",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze",
+            "api-integratie"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Adviesrapport hardware keuze",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze",
+            "hardware"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Multidecision criteria matrix hardware communicatie protocol",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze",
+            "api-integratie"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Multidecision criteria matrix hardware component",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze",
+            "hardware"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Multidecision criteria matrix software framework",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "technologiekeuze"
+          ],
+          "methoden": [
+            "Multi-criteria decision making"
+          ]
+        },
+        {
+          "naam": "Onderzoeksrapport communicatieprotocol",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Adviseren",
+          "trefwoorden": [
+            "api-integratie",
+            "hardware"
+          ],
+          "methoden": [
+            "Literature study"
+          ]
+        },
+        {
+          "naam": "Breadboard prototype",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "hardware"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Component diagram",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "hardware"
+          ]
+        },
+        {
+          "naam": "PCB schematic",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "hardware"
+          ],
+          "tools": [
+            "KiCad"
+          ]
+        },
+        {
+          "naam": "Sequence diagram",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "architectuur",
+            "api-integratie"
+          ]
+        },
+        {
+          "naam": "Wiring diagram",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Ontwerpen",
+          "trefwoorden": [
+            "hardware"
+          ]
+        },
+        {
+          "naam": "Component prototype",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware"
+          ],
+          "methoden": [
+            "Prototyping",
+            "Hardware validation"
+          ]
+        },
+        {
+          "naam": "Embedded Machine Learning",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Firmware (software voor hardware)",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware",
+            "programmeren"
+          ],
+          "tools": [
+            "C",
+            "Rust",
+            "Zephyr"
+          ]
+        },
+        {
+          "naam": "PCB",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware"
+          ]
+        },
+        {
+          "naam": "Product prototype",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware"
+          ],
+          "methoden": [
+            "Prototyping"
+          ]
+        },
+        {
+          "naam": "Simulatie",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware",
+            "testen"
+          ],
+          "methoden": [
+            "Computer simulation"
+          ]
+        },
+        {
+          "naam": "Software driver voor hardware component",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Software library voor hardware",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware",
+            "programmeren"
+          ]
+        },
+        {
+          "naam": "Testopstelling",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware",
+            "testen"
+          ],
+          "methoden": [
+            "Hardware validation"
+          ]
+        },
+        {
+          "naam": "Tiny Machine Learning",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "hardware",
+            "ai-ml"
+          ]
+        },
+        {
+          "naam": "Validatieschema",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Realiseren",
+          "trefwoorden": [
+            "testen",
+            "hardware"
+          ],
+          "methoden": [
+            "Hardware validation"
+          ]
+        },
+        {
+          "naam": "Breadboard (testplatform)",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "hardware",
+            "testen"
+          ],
+          "methoden": [
+            "Hardware validation"
+          ]
+        },
+        {
+          "naam": "Documentatie Development Kit (Arduino, ESP, e.a.)",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "documentatie",
+            "hardware"
+          ]
+        },
+        {
+          "naam": "Documentatie hardware componenten (datasheets)",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "documentatie",
+            "hardware"
+          ]
+        },
+        {
+          "naam": "Documentatie project (readme, e.a.)",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "documentatie"
+          ]
+        },
+        {
+          "naam": "Logbeheer (sensor, firmware, e.a.)",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "beheer",
+            "hardware"
+          ]
+        },
+        {
+          "naam": "Over the air updates",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops",
+            "hardware"
+          ]
+        },
+        {
+          "naam": "Simulatie",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "hardware",
+            "testen"
+          ],
+          "methoden": [
+            "Computer simulation"
+          ]
+        },
+        {
+          "naam": "Versiebeheer (git, ci/cd)",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "devops"
+          ]
+        },
+        {
+          "naam": "Wiring diagram",
+          "laag": "Hardwareinterfacing",
+          "activiteit": "Manage & control",
+          "trefwoorden": [
+            "hardware",
+            "documentatie"
+          ]
+        }
+      ],
+      "kleur": "#001F3F"
+    }
+  ],
+  "gedeeld": [
+    {
+      "naam": "C4-model",
+      "producten": [
+        [
+          "AI",
+          "C4"
+        ],
+        [
+          "BE",
+          "C4"
+        ]
+      ]
+    },
+    {
+      "naam": "Versiebeheer (Git)",
+      "producten": [
+        [
+          "BE",
+          "Versiebeheer (GIT)"
+        ],
+        [
+          "FE",
+          "Git / versiebeheer"
+        ],
+        [
+          "TI",
+          "Versiebeheer (git, ci/cd)"
+        ],
+        [
+          "GD",
+          "Version Control Workflow"
+        ]
+      ]
+    },
+    {
+      "naam": "CI/CD",
+      "producten": [
+        [
+          "BE",
+          "CI"
+        ],
+        [
+          "BE",
+          "CD"
+        ],
+        [
+          "FE",
+          "Continuous Integration (CI)"
+        ],
+        [
+          "FE",
+          "Continuous Development (CD)"
+        ],
+        [
+          "BIT",
+          "(Test) Pipeline to Market (CI/CD)"
+        ]
+      ]
+    },
+    {
+      "naam": "Containers (Docker)",
+      "producten": [
+        [
+          "BE",
+          "Docker container/images"
+        ],
+        [
+          "FE",
+          "Docker image"
+        ],
+        [
+          "CI",
+          "Containerization (Docker)"
+        ]
+      ]
+    },
+    {
+      "naam": "Kubernetes",
+      "producten": [
+        [
+          "BE",
+          "k8s"
+        ],
+        [
+          "CI",
+          "Container orchestration (Kubernetes)"
+        ]
+      ]
+    },
+    {
+      "naam": "API-documentatie (OpenAPI)",
+      "producten": [
+        [
+          "BE",
+          "Open API / swagger"
+        ],
+        [
+          "FE",
+          "Swagger"
+        ]
+      ]
+    },
+    {
+      "naam": "Unit- en integratietests",
+      "producten": [
+        [
+          "BE",
+          "Unit tests"
+        ],
+        [
+          "BE",
+          "Integration tests"
+        ],
+        [
+          "FE",
+          "Unit testing & integration testing"
+        ]
+      ]
+    },
+    {
+      "naam": "Teststrategie",
+      "producten": [
+        [
+          "BE",
+          "Teststrategie"
+        ],
+        [
+          "BE",
+          "Testplan"
+        ],
+        [
+          "FE",
+          "Teststructuur opzetten"
+        ],
+        [
+          "AI",
+          "Teststrategie ML model"
+        ]
+      ]
+    },
+    {
+      "naam": "Authenticatie",
+      "producten": [
+        [
+          "BE",
+          "JWT | OAuth"
+        ],
+        [
+          "FE",
+          "Authenticatie"
+        ]
+      ]
+    },
+    {
+      "naam": "Performance",
+      "producten": [
+        [
+          "BE",
+          "Performance analyse"
+        ],
+        [
+          "FE",
+          "Lighthouse testen"
+        ]
+      ]
+    },
+    {
+      "naam": "Framework- en stackkeuze",
+      "producten": [
+        [
+          "FE",
+          "Framework Vergelijken"
+        ],
+        [
+          "FE",
+          "Advies over handigste framework"
+        ],
+        [
+          "BE",
+          "Advies over stack, frameworks, databases, etc. gebaseerd op analyse"
+        ]
+      ]
+    },
+    {
+      "naam": "Personas",
+      "producten": [
+        [
+          "UI/UX",
+          "Personas"
+        ],
+        [
+          "BIT",
+          "User persona's"
+        ],
+        [
+          "GD",
+          "Player Persona Set"
+        ]
+      ]
+    },
+    {
+      "naam": "User journey",
+      "producten": [
+        [
+          "UI/UX",
+          "Customer Journey Mapping"
+        ],
+        [
+          "BIT",
+          "User journey"
+        ],
+        [
+          "FE",
+          "User Journey"
+        ],
+        [
+          "FE",
+          "User Journey Mapping"
+        ],
+        [
+          "GD",
+          "Player Journey Map"
+        ]
+      ]
+    },
+    {
+      "naam": "Wireframes",
+      "producten": [
+        [
+          "UI/UX",
+          "Wireframes"
+        ],
+        [
+          "FE",
+          "Wireframe"
+        ],
+        [
+          "GD",
+          "Game HUD / UI Wireframes"
+        ]
+      ]
+    },
+    {
+      "naam": "Interactief prototype",
+      "producten": [
+        [
+          "UI/UX",
+          "Interactive Prototype"
+        ],
+        [
+          "FE",
+          "Klikbaar prototype maken"
+        ],
+        [
+          "FE",
+          "Interactief Figma design maken"
+        ]
+      ]
+    },
+    {
+      "naam": "Componenten en design system",
+      "producten": [
+        [
+          "UI/UX",
+          "Design Systems"
+        ],
+        [
+          "UI/UX",
+          "Figma components"
+        ],
+        [
+          "FE",
+          "Herbruikbare componenten"
+        ],
+        [
+          "FE",
+          "Opzetten storybook"
+        ]
+      ]
+    },
+    {
+      "naam": "Usability testing",
+      "producten": [
+        [
+          "FE",
+          "User testing"
+        ],
+        [
+          "FE",
+          "Usability testplan"
+        ],
+        [
+          "GD",
+          "Playability & Usability Test Report"
+        ],
+        [
+          "GD",
+          "Usability & Playability Testing Setup"
+        ]
+      ]
+    },
+    {
+      "naam": "Toegankelijkheid",
+      "producten": [
+        [
+          "FE",
+          "WCAG"
+        ],
+        [
+          "FE",
+          "Accessibility"
+        ],
+        [
+          "FE",
+          "Toegankelijkheid testing"
+        ],
+        [
+          "GD",
+          "Accessibility Advice"
+        ]
+      ]
+    },
+    {
+      "naam": "Concurrentieanalyse",
+      "producten": [
+        [
+          "UI/UX",
+          "Competitor Analysis"
+        ],
+        [
+          "GD",
+          "Competitor Experience Analysis"
+        ],
+        [
+          "BIT",
+          "Concurrentie analyse"
+        ]
+      ]
+    },
+    {
+      "naam": "Value proposition",
+      "producten": [
+        [
+          "UI/UX",
+          "Value Proposition"
+        ],
+        [
+          "BIT",
+          "Value Propostion Canvas (huidig)"
+        ],
+        [
+          "BIT",
+          "Value Propostion Canvas (gewenst)"
+        ]
+      ]
+    },
+    {
+      "naam": "Business model",
+      "producten": [
+        [
+          "UI/UX",
+          "Business models"
+        ],
+        [
+          "BIT",
+          "Business Model Canvas (huidig)"
+        ],
+        [
+          "BIT",
+          "Business Model Canvas (gewenst)"
+        ]
+      ]
+    },
+    {
+      "naam": "Productvisie",
+      "producten": [
+        [
+          "UI/UX",
+          "Product Vision"
+        ],
+        [
+          "BIT",
+          "Productvisie"
+        ]
+      ]
+    },
+    {
+      "naam": "Requirements",
+      "producten": [
+        [
+          "BIT",
+          "Requierment analyse"
+        ],
+        [
+          "BIT",
+          "Requirement engineering"
+        ],
+        [
+          "FE",
+          "Requirement Analyse"
+        ]
+      ]
+    },
+    {
+      "naam": "Overdrachtsdocumentatie",
+      "producten": [
+        [
+          "FE",
+          "Overdrachtsdocument"
+        ],
+        [
+          "BIT",
+          "(Overdrachts)documentatie"
+        ]
+      ]
+    },
+    {
+      "naam": "BPMN-procesmodellen",
+      "producten": [
+        [
+          "BIT",
+          "Procesanalyse huidig (BPMN)"
+        ],
+        [
+          "BIT",
+          "Procesontwerp gewenst (BPMN)"
+        ],
+        [
+          "BE",
+          "BPMN"
+        ]
+      ]
+    },
+    {
+      "naam": "Risicoanalyse",
+      "producten": [
+        [
+          "BIT",
+          "Risico analyse"
+        ],
+        [
+          "CS",
+          "Risicoanalyse"
+        ],
+        [
+          "CS",
+          "Risico en maatregelen analyse"
+        ],
+        [
+          "AI",
+          "Risico's en ethische implicaties"
+        ]
+      ]
+    },
+    {
+      "naam": "Monitoring",
+      "producten": [
+        [
+          "BE",
+          "Grafana dashboards"
+        ],
+        [
+          "CS",
+          "Monitoring & alerting"
+        ],
+        [
+          "CS",
+          "Monitoring & logging"
+        ]
+      ]
+    },
+    {
+      "naam": "Disaster recovery",
+      "producten": [
+        [
+          "CS",
+          "Disaster Recovery Plan"
+        ],
+        [
+          "CS",
+          "Disaster recovery"
+        ],
+        [
+          "CI",
+          "Backup & recovery"
+        ]
+      ]
+    },
+    {
+      "naam": "Configuratiebeheer",
+      "producten": [
+        [
+          "CI",
+          "Configuration management (Ansible | Puppet | Chef)"
+        ],
+        [
+          "CS",
+          "Configuration management (CMDB)"
+        ]
+      ]
+    }
+  ],
+  "trefwoorden": {
+    "gebruikersonderzoek": "Onderzoek naar gebruikers en spelers: interviews, personas, journeys, usability tests",
+    "interactieontwerp": "Ontwerpen van interfaces en interactie: wireframes, prototypes, design systems",
+    "toegankelijkheid": "Toegankelijkheid en inclusief ontwerp (WCAG, contrast)",
+    "businessstrategie": "Businessmodel, waardepropositie, visie, markt en concurrentie",
+    "procesmodellering": "Analyse en ontwerp van (bedrijfs)processen: BPMN, ITIL, servicedesign",
+    "requirements": "Probleemanalyse en het vastleggen van eisen en wensen",
+    "technologiekeuze": "Vergelijken en adviseren over technologie, frameworks, hardware en tools",
+    "architectuur": "Software- en systeemarchitectuur: C4, UML, patronen, structuur",
+    "data": "Datamodellering, datakwaliteit, datapipelines en data-architectuur",
+    "ai-ml": "Kunstmatige intelligentie en machine learning",
+    "programmeren": "Code schrijven: frameworks, componenten, paradigma's",
+    "api-integratie": "API's, koppelingen, communicatieprotocollen en integratie tussen systemen",
+    "testen": "Testen en teststrategie: unit, integratie, e2e, functioneel",
+    "kwaliteit": "Code- en productkwaliteit: reviews, performance, audits, conventies",
+    "devops": "Versiebeheer, CI/CD, containers en release",
+    "infrastructuur": "Cloud, netwerken, servers, opslag en virtualisatie",
+    "security": "Informatiebeveiliging: toegang, hardening, architectuur, incidenten",
+    "risico-compliance": "Risico's, privacy, wet- en regelgeving, normen en audits",
+    "beheer": "Beheer en monitoring van systemen en diensten, continuïteit",
+    "projectmanagement": "Planning, backlog, begroting, implementatie en stakeholders",
+    "documentatie": "Documentatie, handleidingen en overdracht",
+    "hardware": "Elektronica, embedded systemen en hardwarecomponenten",
+    "gamedesign": "Ontwerp van games: mechanics, levels, personages",
+    "dashboards": "Dashboards, KPI's en rapportage van gegevens",
+    "ethiek": "Ethiek, vertrouwen, uitlegbaarheid en maatschappelijke impact"
+  },
+  "onderzoeksmethoden": {
+    "Available product analysis": {
+      "strategie": "Library",
+      "url": "https://ictresearchmethods.nl/library/available-product-analysis"
+    },
+    "Best good and bad practices": {
+      "strategie": "Library",
+      "url": "https://ictresearchmethods.nl/library/best-good-and-bad-practices"
+    },
+    "Community research": {
+      "strategie": "Library",
+      "url": "https://ictresearchmethods.nl/library/community-research"
+    },
+    "Competitive analysis": {
+      "strategie": "Library",
+      "url": "https://ictresearchmethods.nl/library/competitive-analysis"
+    },
+    "Design pattern research": {
+      "strategie": "Library",
+      "url": "https://ictresearchmethods.nl/library/design-pattern-research"
+    },
+    "Expert interview": {
+      "strategie": "Library",
+      "url": "https://ictresearchmethods.nl/library/expert-interview"
+    },
+    "Literature study": {
+      "strategie": "Library",
+      "url": "https://ictresearchmethods.nl/library/literature-study"
+    },
+    "SWOT analysis": {
+      "strategie": "Library",
+      "url": "https://ictresearchmethods.nl/library/swot-analysis"
+    },
+    "Descriptive statistics": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/descriptive-statistics"
+    },
+    "Document analysis": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/document-analysis"
+    },
+    "Domain modelling": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/domain-modelling"
+    },
+    "Exploratory data analysis (ML)": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/exploratory-data-analysis"
+    },
+    "Explore user requirements": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/explore-user-requirements"
+    },
+    "Focus group": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/focus-group"
+    },
+    "Human impact score": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/human-impact-score"
+    },
+    "Interview": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/interview"
+    },
+    "Observation": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/observation"
+    },
+    "Problem analysis": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/problem-analysis"
+    },
+    "Stakeholder analysis": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/stakeholder-analysis"
+    },
+    "Survey": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/survey"
+    },
+    "Task analysis": {
+      "strategie": "Field",
+      "url": "https://ictresearchmethods.nl/field/task-analysis"
+    },
+    "A/B testing": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/a-b-testing"
+    },
+    "Component test": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/component-test"
+    },
+    "Computer simulation": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/computer-simulation"
+    },
+    "Data analytics": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/data-analytics"
+    },
+    "Data quality check (ML)": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/data-quality-check"
+    },
+    "Hardware validation": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/hardware-validation"
+    },
+    "Inferential statistics": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/inferential-statistics"
+    },
+    "Model evaluation (ML)": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/model-evaluation"
+    },
+    "Model validation (ML)": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/model-validation"
+    },
+    "Non-functional test": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/non-functional-test"
+    },
+    "Security test": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/security-test"
+    },
+    "System test": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/system-test"
+    },
+    "Unit test": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/unit-test"
+    },
+    "Usability testing": {
+      "strategie": "Lab",
+      "url": "https://ictresearchmethods.nl/lab/usability-testing"
+    },
+    "Benchmark test": {
+      "strategie": "Showroom",
+      "url": "https://ictresearchmethods.nl/showroom/benchmark-test"
+    },
+    "Ethical check": {
+      "strategie": "Showroom",
+      "url": "https://ictresearchmethods.nl/showroom/ethical-check"
+    },
+    "Guideline conformity analysis": {
+      "strategie": "Showroom",
+      "url": "https://ictresearchmethods.nl/showroom/guideline-conformity-analysis"
+    },
+    "Peer review": {
+      "strategie": "Showroom",
+      "url": "https://ictresearchmethods.nl/showroom/peer-review"
+    },
+    "Pitch": {
+      "strategie": "Showroom",
+      "url": "https://ictresearchmethods.nl/showroom/pitch"
+    },
+    "Product review": {
+      "strategie": "Showroom",
+      "url": "https://ictresearchmethods.nl/showroom/product-review"
+    },
+    "Static program analysis": {
+      "strategie": "Showroom",
+      "url": "https://ictresearchmethods.nl/showroom/static-program-analysis"
+    },
+    "Brainstorm": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/brainstorm"
+    },
+    "Business case exploration": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/business-case-exploration"
+    },
+    "Co-creation": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/co-creation"
+    },
+    "Code review": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/code-review"
+    },
+    "Decomposition": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/decomposition"
+    },
+    "Gap analysis": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/gap-analysis"
+    },
+    "Hackathon": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/hackathon"
+    },
+    "IT architecture sketching": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/it-architecture-sketching"
+    },
+    "Multi-criteria decision making": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/multi-criteria-decision-making"
+    },
+    "Prototyping": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/prototyping"
+    },
+    "Requirements prioritization": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/requirements-prioritization"
+    },
+    "Root cause analysis": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/root-cause-analysis"
+    },
+    "Silicon sampling": {
+      "strategie": "Workshop",
+      "url": "https://ictresearchmethods.nl/workshop/silicon-sampling"
+    }
+  },
+  "strategieen": {
+    "Library": {
+      "motto": "Standing on the shoulders of giants",
+      "logo": "img/dot/library.png"
+    },
+    "Field": {
+      "motto": "Understand your users",
+      "logo": "img/dot/field.png"
+    },
+    "Lab": {
+      "motto": "To measure is to know",
+      "logo": "img/dot/lab.png"
+    },
+    "Showroom": {
+      "motto": "Know & show your contribution",
+      "logo": "img/dot/showroom.png"
+    },
+    "Workshop": {
+      "motto": "Seek variation and improvement",
+      "logo": "img/dot/workshop.png"
+    }
+  }
+}
